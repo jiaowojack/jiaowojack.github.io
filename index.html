@@ -1,82 +1,2327 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- ÉÏÊö3¸ömeta±êÇ©*±ØÐë*·ÅÔÚ×îÇ°Ãæ£¬ÈÎºÎÆäËûÄÚÈÝ¶¼*±ØÐë*¸úËæÆäºó£¡ -->
-    <title>Bootstrap 101 Template</title>
+ï»¿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0031)https://www.rottentomatoes.com/ -->
+<!DOCTYPE html PUBLIC "" ""><HTML lang="en" xmlns:og="http://opengraphprotocol.org/schema/" 
+xmlns:fb="http://www.facebook.com/2008/fbml"><HEAD prefix="og: http://ogp.me/ns# flixstertomatoes: http://ogp.me/ns/apps/flixstertomatoes#"><META 
+content="IE=10.000" http-equiv="X-UA-Compatible">
+     
+<SCRIPT src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/594670329.js"></SCRIPT>
+     
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">     
+<META name="viewport" content="width=device-width,initial-scale=1">     
+<META name="google-site-verification" content="VPPXtECgUUeuATBacnqnCm4ydGO99reF-xgNklSbNbc"> 
+    
+<META name="msvalidate.01" content="034F16304017CA7DCF45D43850915323">     <LINK 
+href="https://staticv2-4.rottentomatoes.com/static/images/iphone/apple-touch-icon.png" 
+rel="apple-touch-icon">     <LINK href="https://staticv2-4.rottentomatoes.com/static/images/icons/favicon.ico" 
+rel="shortcut icon" type="image/x-icon">     <LINK href="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/rt_main.css" 
+rel="stylesheet">     
+<SCRIPT id="jsonLdSchema" type="application/ld+json"></SCRIPT>
+     
+<SCRIPT>
+    var dataLayer = dataLayer || [];
+    </SCRIPT>
+     
+<SCRIPT src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/require.min.js"></SCRIPT>
+ 
+<SCRIPT src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/jquery.min.js"></SCRIPT>
+ 
+<SCRIPT>
+require.config({
+    baseUrl: "https://staticv2-4.rottentomatoes.com/static/",
+    waitSeconds: 60,
+    config: {
+        text: {
+            useXhr:function(url, protocol, hostname, port) {
+                return true;
+            }
+        }
+    },
+    paths: {
+        facebook : "//connect.facebook.net/en_US/all",
+        backbone: "//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.1/backbone-min",
+        bootstrap: "//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min",
+        device: "//cdnjs.cloudflare.com/ajax/libs/device.js/0.2.7/device.min",
+        marionette: "//cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.3/backbone.marionette.min",
+        moment: "//cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min",
+        googleMapsApis: "//maps.googleapis.com/maps/api/js?key=AIzaSyDPjsVhzeFsT0QhCw_gwy2PyXyfLo-ejds&libraries=places",
+        slick: "//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min",
+        text: "//cdnjs.cloudflare.com/ajax/libs/require-text/2.0.12/text.min",
+        typeahead: "//cdnjs.cloudflare.com/ajax/libs/typeahead.js/0.10.5/typeahead.bundle.min",
+        underscore: "//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min",
+        select2 : "//cdnjs.cloudflare.com/ajax/libs/select2/3.5.2/select2.min",
+        jwplayer: "js/lib/jwplayer-7.4.3/jwplayer",
+        googletag : "//www.googletagservices.com/tag/js/gpt", // NOTE: app code should generally NOT depend directly on googletag. Depend on gpt-setup insteaad.
+        domReady: "//cdnjs.cloudflare.com/ajax/libs/require-domReady/2.0.1/domReady.min",
+        "js-cookie" : "//cdnjs.cloudflare.com/ajax/libs/js-cookie/2.1.1/js.cookie.min",
+        "jquery-ui": "//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min",
+        scrollTo: "//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.14/jquery.scrollTo.min",
+        nouislider: "//cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.min",
+        swiper: "js/lib/swiper.jquery.min",
+        hammer: "//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min",
+        rsvp: "//cdnjs.cloudflare.com/ajax/libs/rsvp/3.3.3/rsvp.min",
+        masonry: "//cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min",
+        dotdotdot: "//cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.4/jquery.dotdotdot.min",
+        readmore: "//cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.0.5/readmore.min",
+        omniture: "dist/tracking/omniture.min",
+        "star-rating": "js/lib/star-rating/star-rating.min",
+        schema : "js/utils/schema",
+        rtClamp: "dist/utils/rtclamp.min",
+        vendor: 'dist/vendor',
+        'common-pure-react': 'dist/common-pure-react',
+        'common-react-redux': 'dist/common-react-redux',
+        'episode-list': 'dist/episode-list',
+        'friend-ratings': 'dist/friend-ratings',
+        'fullscreen-search': 'dist/fullscreen-search',
+        'location-utils': 'dist/location-utils',
+        'media-browser': 'dist/media-browser',
+        'photos-carousel': 'dist/photos-carousel-modal',
+        'photo-gallery': 'dist/photo-gallery',
+        'photo-rail': 'dist/photo-rail',
+        'rating-widget': 'dist/rating-widget',
+        'search-results': 'dist/search-results',
+        'videos-carousel': 'dist/videos-carousel',
+        recommendations: 'dist/recommendations',
+        'box-office': 'dist/box-office',
+        bezier: "js/bezierEasing",
+    },
+    // Note: jquery, underscore and backbone all support amds natively. no need for shim.
+    shim: {
+        "photos-carousel": {
+            deps: ["common-pure-react"]
+        },
+        "videos-carousel": {
+            deps: ["common-pure-react"]
+        },
+        "fullscreen-search": {
+            deps: ["common-pure-react"]
+        },
+        "location-utils": {
+            deps: ["common-pure-react"]
+        },
+        "friend-ratings": {
+            deps: ["common-pure-react"]
+        },
+        'rating-widget': {
+            deps: ["common-pure-react"]
+        },
+        'recommendations': {
+            deps: ["common-pure-react"]
+        },
+        'photo-rail': {
+            deps: ["common-pure-react"]
+        },
+        'search-results': {
+            deps: ["common-react-redux"]
+        },
+        'episode-list': {
+            deps: ["common-react-redux"]
+        },
+        'media-browser': {
+            deps: ["common-react-redux"]
+        },
+        "photo-gallery": {
+            deps: ["common-react-redux"]
+        },
+        'box-office': {
+            deps: ['common-react-redux']
+        },
+        'common-pure-react': {
+            deps: ["vendor"]
+        },
+        'common-react-redux': {
+            deps: ["vendor"]
+        },
+        "bootstrap" : {
+        	deps: ["jquery"]
+        },
+        "slick": {
+            deps: ["jquery"],
+            exports: "slick"
+        },
+        "text": {
+            deps: ["backbone"]
+        },
+        "marionette": {
+            deps: ["jquery", "underscore", "backbone"],
+            exports: "Marionette"
+        },
+		"jwplayer": {
+            exports: "jwplayer"
+        },
+        "select2" : {
+            deps: ["jquery"]
+        },
+        "domReady!": {
+            exports : "domReady!"
+        },
+        "facebook" : {
+            exports: "FB"
+        },
+        "scrollTo" : {
+            deps: ["jquery"]
+        },
+        "touchSwipe": {
+            deps: ["jquery"]
+        },
+        "typeahead": {
+            deps: ["jquery", "bootstrap"],
+            exports: "typeahead"
+        },
+        "swiper": {
+            deps: ["jquery"]
+        },
+        "nouislider": {
+            deps: ["jquery"]
+        },
+        "readmore": {
+            deps: ["jquery"]
+        },
+        "dotdotdot": {
+            deps: ["jquery"]
+        },
+        "googletag" : {
+        	exports: "googletag"
+        },
+        "jquery-ui": {
+            deps: ["jquery"]
+        }
+    }
+});
+</SCRIPT>
+ 
+<SCRIPT>
+define("globals", ["jquery", "underscore"], function($, _) {
+    _.templateSettings = {
+        interpolate: /\<\@\=(.+?)\@\>/gim,
+        evaluate: /\<\@(.+?)\@\>/gim
+    };
+    var RT = RT || {};
+    RT.Host = 'https://www.rottentomatoes.com';
+    RT.EditorialHost = 'https://editorial.rottentomatoes.com';
+    RT.LegacyPagesHost = 'https://www.rottentomatoes.com';
+    RT.PrivateApiFrontendHost = 'https://www.rottentomatoes.com';
+    RT.PrivateApiV2FrontendHost = 'https://www.rottentomatoes.com';
+    RT.ForumHost = 'https://forum.rottentomatoes.com';
+    RT.EditorialImageHost = 'https://editorial.rottentomatoes.com';
+    RT.StaticHost = 'https://staticv2-4.rottentomatoes.com';
+    RT.ShowtimesHost = 'https://api.flixster.com';
+    RT.NewsThrottle = {
+        homepage: false,
+        celebrity: false,
+        newsAndFeature: false,
+        episode: false,
+        season: false,
+        header: false,
+        movie: "Tomatometer" // State: Off, Tomatometer, Limited, On. Off will not throttle
+    };
+    RT.JwplayerKey='ojO88EQl2m4RQJPsd3tOAYLZOlgjKpMliIQMpA==';
+    RT.loginInit = $.Deferred();
+    RT.loginViewLoad = $.Deferred();
+    RT.fb_ready = $.Deferred();
+    RT.RecaptchaDeferred = $.Deferred();
+    RT.adPromises = [];
+    return RT;
+});
+</SCRIPT>
+ 
+<SCRIPT>
+    
+        var mpscall = {};
+        var BK = {};
 
-    <!-- Bootstrap -->
-    <!-- ×îÐÂ°æ±¾µÄ Bootstrap ºËÐÄ CSS ÎÄ¼þ -->
-<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        mpscall = {
+            "site":"rottentomatoes-web",
+            "type":"index", // page or content type
+            "cat":"home|index", // section hierarchy (pipe separated)
+            "field[env]":"prod" // execution environment
+        };
 
-<!-- ¿ÉÑ¡µÄ Bootstrap Ö÷ÌâÎÄ¼þ£¨Ò»°ã²»ÓÃÒýÈë£© -->
-<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
- <nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Brand</a>
-    </div>
+        BK.PageName = "";
+        BK.SiteSection = "home";
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
+        require(["js-cookie"], function(Cookies){
+            var user_id_key = "auth_user";
+            var userId = Cookies.get(user_id_key);
+            if (userId) {
+                BK.FlixsterUID=userId;
+            }
+        });
+
+        
+
+        var mpsopts = {
+            "host":"mps.nbcuni.com",
+            "updatecorrelator":true
+        }
+
+        var mps=mps||{};mps._ext=mps._ext||{};mps._adsheld=[];mps._queue=mps._queue||{};mps._queue.mpsloaded=mps._queue.mpsloaded||[];mps._queue.mpsinit=mps._queue.mpsinit||[];mps._queue.gptloaded=mps._queue.gptloaded||[];mps._queue.adload=mps._queue.adload||[];mps._queue.adclone=mps._queue.adclone||[];mps._queue.adview=mps._queue.adview||[];mps._queue.refreshads=mps._queue.refreshads||[];mps.__timer=Date.now();mps.__intcode="v2";if(typeof mps.getAd!="function")mps.getAd=function(adunit){if(typeof adunit!="string")return false;var slotid="mps-getad-"+adunit.replace(/\W/g,"");if(!mps._ext||!mps._ext.loaded){mps._queue.gptloaded.push(function(){typeof mps._gptfirst=="function"&&mps._gptfirst(adunit,slotid);mps.insertAd("#"+slotid,adunit)});mps._adsheld.push(adunit)}return'<div id="'+slotid+'" class="mps-wrapper" data-mps-fill-slot="'+adunit+'"></div>'};(function(){head=document.head||document.getElementsByTagName("head")[0],mpsload=document.createElement("script");mpsload.src="//"+mpsopts.host+"/fetch/ext/load-"+mpscall.site+".js?nowrite=2";mpsload.id="mps-load";head.insertBefore(mpsload,head.firstChild)})();
+    
+
+    // force preload of googletag
+    require(["googletag"]);
+
+    
+    flix_user_id = "";
+</SCRIPT>
+ <!-- Facebook Pixel Code --> 
+<SCRIPT>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function()
+    {n.callMethod? n.callMethod.apply(n,arguments):n.queue.push(arguments)}
+    ;if(!f._fbq)f._fbq=n;
+        n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+            document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1147905821962466');
+    fbq('track', 'PageView');
+</SCRIPT>
+ <NOSCRIPT>&lt;img height="1" width="1" style="display:none"               
+src="https://www.facebook.com/tr?id=1147905821962466&amp;ev=PageView&amp;noscript=1"
+ /&gt;</NOSCRIPT> <!-- DO NOT MODIFY --> <!-- End Facebook Pixel Code --> 
+<SCRIPT type="text/javascript">
+    var _sf_async_config = _sf_async_config || {};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 64558; // ACCOUNT NUMBER
+    _sf_async_config.domain = 'rottentomatoes.com'; // DOMAIN
+    _sf_async_config.flickerControl = false;
+    _sf_async_config.useCanonical = true;
+    /** CONFIGURATION END **/
+    var _sf_startpt = (new Date()).getTime();
+</SCRIPT>
+ 
+<SCRIPT src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/chartbeat_mab.js" async=""></SCRIPT>
+ 
+<SCRIPT src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/satelliteLib-cbce2cb5d7b476a55d4d651acf340e0592b4f00c-staging.js"></SCRIPT>
+     
+<SCRIPT>console.info("require:" + window.performance.now());</SCRIPT>
+     
+<SCRIPT>
+    function endsWith(str, suffix) {
+        return str.indexOf(suffix, str.length - suffix.length) !== -1;
+    }
+
+    //--Ad Unit Loaded (called for each ad loaded)
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.adload=mps._queue.adload||[];
+    mps._queue.adload.push(function(eo) {
+        window.console && console.log('**** AD LOADED: '+eo._mps.adslot);
+        if (!eo.isEmpty) {
+            console.log('MPS Slot Rendered: ' + eo.slot.getAdUnitPath() + " - " + eo.size + ', Creative Id: ' + eo.creativeId + ', Line Item Id: ' + eo.lineItemId +  ', Slot name: ' + eo._mps._slot);
+            var slotName = eo._mps._slot;
+            if ("interstitial" === slotName || "minterstitial" === slotName) {
+                require(["js-cookie"], function(Cookies){
+                    var pageViewCount = "pvc";
+                    var pageViewCountCookieValue = Cookies.get(pageViewCount);
+                    var date = new Date();
+                    var minutes = 60;
+                    date.setTime(date.getTime() + (minutes * 60 * 1000));
+                    if (pageViewCountCookieValue == null) {
+                        Cookies.set(pageViewCount, "1", {path: '/', expires : date});
+                    }
+                });
+            }
+
+            if ("topbanner" === slotName) {
+                var leaderboardHeight = eo.size[1];
+                if (leaderboardHeight > 50){
+                    
+                    if (leaderboardHeight < 90){
+                        $('.leaderboard_wrapper').css('min-height', leaderboardHeight);
+                    }
+                    $("#top_leaderboard_wrapper").animate({height:(leaderboardHeight+10)},1000);
+                }
+            }
+
+            if ("trendinggraphic" === slotName) {
+                //Hide Trending bar social section
+                $("#trending_bar_social").hide();
+                //Removing padding for trending bar ad
+                $(".trendingBar>.trendingEl").css("padding","0px");
+                $("#trending_bar_ad").show();
+            }
+
+            if ("tomatometer" === slotName) {
+                if (eo.size[0] == 524 && eo.size[1] == 40) {
+                    //Increase score panel margin
+                    $("#scorePanel").css("margin-bottom", "20px");
+                }
+                // Only show Tomatometer Sponsorship div if rendered
+                $("#tomatometer_sponsorship_ad").show();
+            }
+        }
+    });
+
+    define("gpt-setup", ["jquery", "googletag"], function($, googletag){
+        console.log("GPT - global setup");
+
+        /* Keep track of slots defined to googletag */
+        googletag.definedSlots = {};
+
+        /* Add hook for setting external targeting */
+        googletag.readyToFetch = $.Deferred();
+        googletag.registeredPlugins = {};
+        googletag.registerPlugin = function(name){
+            console.log("GPT Registering plugin - " + name);
+            this.registeredPlugins[name] = $.Deferred();
+        };
+
+        googletag.pluginReady = function(name){
+            console.log("GPT Plugin Ready - " + name);
+            this.registeredPlugins[name].resolve();
+        };
+
+        return googletag;
+    });
+</SCRIPT>
+ 
+<SCRIPT>console.info("gpt-global:" + window.performance.now());</SCRIPT>
+     
+<SCRIPT>
+        var dataLayer = dataLayer || [];
+        dataLayer.push({ 'viewportType': window.innerWidth >= 768 ? "desktop_view" : "mobile_view" });
+        dataLayer.push({ 'rtVersion' : 2.0 });
+    </SCRIPT>
+     
+<SCRIPT>
+    require(["jquery"], function($) {
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start' : new Date().getTime(),
+                event : 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer'? '&l='
+                    + l
+                    : '';
+            j.async = true;
+            j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', "GTM-TW7ZFZ");
+    });
+    </SCRIPT>
+     
+<SCRIPT>console.info("gtm:" + window.performance.now());</SCRIPT>
+     <TITLE>Rotten Tomatoes: Movies | TV Shows | Movie Trailers | 
+Reviews</TITLE>     
+<META name="description" content="Rotten Tomatoes, home of the Tomatometer, is the most trusted measurement of quality for Movies &amp; TV. The definitive site for Reviews, Trailers, Showtimes, and Tickets"> 
+    <LINK href="https://www.rottentomatoes.com/" rel="canonical"> <LINK href="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/homepage.css" 
+rel="stylesheet"> 
+<SCRIPT>console.info("after page specific head tag content:" + window.performance.now());</SCRIPT>
+     
+<SCRIPT>console.info("bottom of head tag: " + window.performance.now());</SCRIPT>
+     
+<SCRIPT type="text/javascript">
+        var onRecaptchaCallback = function() {
+            require(["jquery", "globals"], function($, RT) {
+                RT.RecaptchaDeferred.resolve();
+            });
+        };
+    </SCRIPT>
+     
+<SCRIPT>
+        require([
+            "globals",
+            "https://staticv2-4.rottentomatoes.com/static/dist/app/models/LoginModel.min.js",
+        ], function(RT, LoginModel) {
+            RT.loginModel = new LoginModel();
+            RT.loginInit.resolve();
+        }.bind(this));
+    </SCRIPT>
+ 
+<META name="GENERATOR" content="MSHTML 10.00.9200.16521"></HEAD> 
+<BODY class="body  ">
+<SCRIPT>console.info("body-top:" + window.performance.now());</SCRIPT>
+     
+<DIV id="emptyPlaceholder"></DIV>
+<DIV id="fb-root"></DIV>
+<SCRIPT>
+require(['jquery', 'facebook', 'globals'], function($, FB, RT) {
+    FB.init({
+        appId: '326803741017',
+        version : 'v2.2',
+        status: true,
+        cookie: true,
+        xfbml: true
+    });
+
+    // FB scripts ready. (Does not imply logged in)
+    RT.fb_ready.resolve();
+});
+</SCRIPT>
+
+<SCRIPT>console.info("facebook:" + window.performance.now());</SCRIPT>
+     <!-- TODO: Put in long term targeting fix -->     
+<DIV id="overlay" style="height: 0px;"></DIV>
+<SCRIPT>
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+    mps._queue.gptloaded.push(function() {
+        if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+            require(["js-cookie"], function(Cookies){
+                var pageViewCount = Cookies.get("pvc");
+                if (pageViewCount == null || (parseInt(pageViewCount) == 0) || (parseInt(pageViewCount) % 3 == 0)) {
+                    mps.insertAd('#overlay','interstitial');
+                }
+            });
+        } else if (mps.getResponsiveSet() == '0') {
+            require(["js-cookie"], function(Cookies){
+                var pageViewCount = Cookies.get("pvc");
+                if (pageViewCount == null || (parseInt(pageViewCount) == 0) || (parseInt(pageViewCount) % 3 == 0)) {
+                    mps.insertAd('#overlay','minterstitial');
+                }
+            });
+        }
+    });
+</SCRIPT>
+ 
+<DIV class="modal fade" id="navMenu" role="dialog" aria-labelledby="navMenu">
+<DIV class="modal-dialog">
+<DIV class="modal-content">
+<DIV class="modal-body"><BUTTON class="close" aria-label="Close" type="button" 
+data-dismiss="modal"><SPAN class="glyphicon glyphicon-remove"></SPAN></BUTTON>   
+              
+<DIV class="pull-left">
+<UL class="list-inline social">
+  <LI><A class="unstyled fontelloIcon icon-facebook-squared" id="header-facebook-social-link" 
+  href="http://www.facebook.com/rottentomatoes" target="_blank"></A></LI>
+  <LI><A class="unstyled fontelloIcon icon-twitter" id="header-twitter-social-link" 
+  href="http://twitter.com/rottentomatoes" target="_blank"></A></LI></UL></DIV>
+<DIV class="items">
+<DIV class="item"><A class="homeTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/"> 
+                           Home                         </A></DIV>
+<DIV class="item"><A class="boxofficeTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/lists/theater/"> 
+                           Top Box Office                         </A></DIV>
+<DIV class="item"><A class="theatersTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/theaters/"> 
+                           Tickets &amp; Showtimes                         
+</A></DIV>
+<DIV class="item"><A class="dvdTab unstyled navLink fullLink" href="https://www.rottentomatoes.com/lists/dvd/"> 
+                           DVD &amp; Streaming                         
+</A></DIV>
+<DIV class="item"><A class="newsTab unstyled navLink fullLink" href="https://editorial.rottentomatoes.com/"> 
+                           News                         </A></DIV></DIV>
+<DIV class="loginArea"></DIV></DIV></DIV></DIV></DIV>
+<DIV class="body_main container">
+<DIV class="modal fade" id="whatIsTomatometer">
+<DIV class="modal-dialog">
+<DIV class="modal-content">
+<DIV class="modal-header"><BUTTON class="close" type="button" data-dismiss="modal"><SPAN 
+aria-hidden="true">Ã—</SPAN><SPAN class="sr-only">Close</SPAN>                 
+</BUTTON>                 
+<H2 class="modal-title">What is the TomatometerÂ®?</H2></DIV>
+<DIV class="modal-body">
+<P>The Tomatometer rating â€“ based on the published opinions of hundreds of film 
+and                    television critics â€“ is a trusted measurement of movie 
+and TV programming quality                    for millions of moviegoers. It 
+represents the percentage of professional critic reviews                    that 
+are positive for a given film or television show.                 </P>
+<DIV class="row-sameColumnHeight noSpacing" style="margin: 20px 0px;">
+<DIV class="col-xs-18" style="vertical-align: bottom;">
+<DIV class="title">
+<H3><SPAN style="background-color: white;">From the Critics</SPAN>               
+              </H3></DIV></DIV>
+<DIV class="col-xs-6" style="vertical-align: bottom;">
+<H3 class="noSpacing center">From RT Users Like You!</H3></DIV></DIV>
+<DIV class="row-sameColumnHeight noSpacing">
+<DIV class="col-xs-18">
+<DIV class="col-xs-8 center"><SPAN class="icon huge fresh"></SPAN>               
+              
+<P class="noSpacing bold">Fresh</P>
+<P>The Tomatometer is 60% or higher.</P></DIV>
+<DIV class="col-xs-8 center"><SPAN class="icon huge rotten"></SPAN>              
+               
+<P class="noSpacing bold">Rotten</P>
+<P>The Tomatometer is 59% or lower.</P></DIV>
+<DIV class="col-xs-8 center"><SPAN class="icon huge certified"></SPAN>           
+                  
+<P class="noSpacing bold">Certified Fresh</P>
+<P>                                Movies and TV shows are Certified Fresh with 
+a steady Tomatometer of 75% or                                higher after a set 
+amount of reviews (80 for wide-release movies, 40 for                            
+    limited-release movies, 20 for TV shows), including 5 reviews from Top 
+Critics.                             </P></DIV></DIV>
+<DIV class="col-xs-6 center"><SPAN class="icon huge popcorn"></SPAN>             
+            
+<P class="noSpacing bold">Audience Score</P>
+<P>Percentage of users who rate a movie or TV show positively.</P></DIV></DIV>
+<DIV class="clickForMore" style="margin-bottom: 0px;"><A class="unstyled articleLink" 
+href="https://www.rottentomatoes.com/about/">Learn More <SPAN class="glyphicon glyphicon-menu-right"></SPAN></A> 
+                </DIV></DIV></DIV></DIV></DIV>
+<DIV id="header_and_leaderboard">
+<DIV class="leaderboard_wrapper homepage_leaderboard" id="top_leaderboard_wrapper">
+<DIV class="leaderboard_helper" id="top_leaderboard_helper">
+<DIV id="leaderboard_top_ad"></DIV>
+<SCRIPT>
+                //--RESPONSIVE AD SWITCHING (DIFFERENT CONTAINERS)
+                var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+                mps._queue.gptloaded.push(function() {
+                    if (mps.getResponsiveSet() =='0') { //MOBILE
+                        mps.insertAd('#leaderboard_top_ad','mbanner');
+                    } else { //DESKTOP or TABLET
+                        mps.insertAd('#leaderboard_top_ad','topbanner');
+                    }
+                });
+            </SCRIPT>
+         </DIV></DIV></DIV><NAV class="header_main container" id="header-main">
+<DIV class="navbar navbar-rt" id="navbar" role="navigation">
+<DIV class="navbar-header pull-right hidden-xs">
+<DIV class="header_links"><A id="header-whats-the-tomatometer" data-toggle="modal" 
+data-target="#whatIsTomatometer">What's the TomatometerÂ®?</A>                 <A 
+id="header-top-bar-critics" href="https://www.rottentomatoes.com/critics/">RT 
+Critics</A>                 
+<DIV id="headerUserSection" style="display: inline-block;"></DIV></DIV></DIV>
+<DIV class="col-sm-13 col-full-xs" id="header_brand_column">
+<DIV class="hidden-xs desktopNav">
+<DIV class="navbar-brand" id="navbar_brand"><A id="header-rt-logo" href="https://www.rottentomatoes.com/"><IMG 
+id="original_rt_logo" src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/rtlogo.png"></A> 
+                    
+<DIV id="new_logo_ad" style="display: none;"></DIV>
+<SCRIPT>
+    var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+    mps._queue.gptloaded.push(function() {
+        if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+            mps.rt.insertlogo('#new_logo_ad', 'ploc=rtlogo;');
+        }
+    });
+</SCRIPT>
+ </DIV>
+<DIV id="desktop-search-root">
+<FORM action="/search/" method="get">
+<DIV class="navbar-searchbox main">
+<DIV class="input-group"><INPUT name="search" class="form-control" id="search-term" 
+type="text" placeholder="Search movies, TV, actors, more..." value="">           
+                      
+<DIV class="input-group-btn"><BUTTON class="btn btn-default searchBtn" type="submit"><EM 
+class="glyphicon glyphicon-search"></EM>                                     
+</BUTTON>                                 </DIV>
+<DIV class="navbar-close"><BUTTON class="btn btn-default" type="button"><SPAN 
+class="glyphicon glyphicon-remove"></SPAN></BUTTON>                              
+   </DIV></DIV></DIV></FORM></DIV>
+<SCRIPT>
+                    (function() {
+                        require(["fullscreen-search"], function(fullscreenSearch) {
+                            fullscreenSearch.mountDropdown(document.getElementById('desktop-search-root'));
+                        });
+                    })();
+                </SCRIPT>
+             </DIV>
+<DIV class="visible-xs mobileNav">
+<DIV><A id="mobile-search-button"><BUTTON class="pull-right navbar-button searchButton"><EM 
+class="glyphicon glyphicon-search white"></EM>                         </BUTTON> 
+                    </A>                     
+<SCRIPT>
+                        (function() {
+                            require(["fullscreen-search"], function(fullscreenSearch) {
+                                fullscreenSearch.attach(document.getElementById('mobile-search-button'));
+                            });
+                        })();
+                    </SCRIPT>
+                 </DIV>
+<DIV class="navbar-brand"><A id="header-rt-logo" href="https://www.rottentomatoes.com/"><IMG 
+src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/rtlogo.png"></A> 
+                    </DIV>
+<DIV id="mobile-nav">
+<DIV class="mob-nav-bottom clearfix">
+<UL class="nav-list" id="nav-list">
+  <LI class="nav-item"><A href="https://www.rottentomatoes.com/"><I class=" fontelloIcon icon-home"></I>Home</A></LI>
+  <LI class="nav-item"><A 
+  href="https://www.rottentomatoes.com/lists/theater/"><I class=" fontelloIcon icon-boxoffice"></I>Box 
+  Office</A></LI>
+  <LI class="nav-item"><A href="https://www.rottentomatoes.com/lists/dvd/"><I 
+  class=" fontelloIcon icon-redeem"></I>DVD</A></LI>
+  <LI class="nav-item"><A class="menu-btn" id="menu-btn" href="javascript:void(0)"><I 
+  class=" fontelloIcon icon-more"></I>MORE                                     
+  </A></LI></UL></DIV>
+<DIV class="mobile-nav-overlay" id="mobile-nav-overlay"><!--mobile dropdown-->   
+                          
+<UL class="mobile-menu-panel">
+  <LI class="nav-item"><A 
+  href="https://editorial.rottentomatoes.com/">News</A></LI>
+  <LI class="nav-item clearfix d-block">
+  <DIV class="login-signup-box pull-left"><A class="signupLink login btn-login-signup" 
+  id="mobile-signup-btn" data-toggle="modal" data-target="#signup">SIGN UP</A>   
+                                        <A class="loginLink login btn-login-signup" 
+  id="mobile-login-btn" data-toggle="modal" data-target="#login">LOG IN</A>      
+                                 </DIV>
+  <DIV class="social-media-box pull-right"><A href="https://www.facebook.com/rottentomatoes"><I 
+  class="fontelloIcon icon-facebook-squared" aria-hidden="true"></I>             
+                              </A>                                         <A 
+  href="https://twitter.com/rottentomatoes"><I class="fontelloIcon icon-twitter" 
+  aria-hidden="true"></I>                                         </A>           
+                            </DIV></LI></UL><!--mobile dropdown end-->             
+            </DIV></DIV></DIV></DIV>
+<DIV class="navbar-nav col-sm-11 hidden-xs" id="menu">
+<UL class="list-inline">
+  <LI class="menuHeader center dropdown noSpacing"><A class="h2 white" id="movieMenu" 
+  role="button" href="https://www.rottentomatoes.com/browse/opening/">           
+       Movies &amp; DVDs<SPAN class="fontelloIcon icon-down-dir"></SPAN>         
+      </A>
+  <DIV class="dropdown-menu" role="menu" aria-labelledby="movieMenu">
+  <DIV class="row-sameColumnHeight">
+  <DIV class="col-xs-5 subnav">
+  <DIV class="innerSubnav">
+  <H2 class="title">Movies in Theaters</H2>
+  <UL class="list-unstyled" id="header-movies-in-theaters">
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/opening/">Opening 
+    This Week</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/in-theaters/">Top 
+    Box Office</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/upcoming/">Coming 
+    Soon to Theaters</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/box-office/">Weekend 
+    Earnings</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/cf-in-theaters/">Certified 
+    Fresh Movies</A>                                 </LI></UL></DIV></DIV>
+  <DIV class="col-xs-5 subnav">
+  <DIV class="innerSubnav"><A class="unstyled articleLink" href="https://www.rottentomatoes.com/dvd/">
+  <H2 class="title">On Dvd &amp; Streaming</H2></A>                             
+  <UL class="list-unstyled" id="header-on-dvd-streaming">
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/?services=fandango_now">FandangoNOW</A> 
+                                    </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/?services=netflix_iw">Netflix 
+    Streaming</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/?services=itunes">iTunes</A> 
+                                    </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/?services=amazon_prime;amazon">Amazon 
+    and Amazon Prime</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/top-dvd-streaming/">Top 
+    DVD &amp; Streaming</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/dvd-streaming-new/">New 
+    Releases</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/dvd-streaming-upcoming/">Coming 
+    Soon to DVD</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/cf-dvd-streaming-all/">Certified 
+    Fresh Movies</A>                                 </LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/">Browse 
+    All</A>                                 </LI></UL></DIV></DIV>
+  <DIV class="col-xs-3 subnav">
+  <DIV class="innerSubnav">
+  <H2 class="title">More</H2>
+  <UL class="list-unstyled" id="header-movies-more">
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/top/">Top 
+    Movies</A></LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/trailers/">Trailers</A></LI>
+    <LI><A class="unstyled articleLink" 
+    href="https://forum.rottentomatoes.com/">Forums</A></LI></UL></DIV></DIV>
+  <DIV class="col-xs-11 subnav">
+  <H2 class="title">Certified Fresh Picks</H2>
+  <DIV class="freshPicks inDropdown" id="header-certified-fresh-picks">
+  <DIV class="cfpItem"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/m/the_big_sick">
+  <P class="topText bold"></P>
+  <DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1.jpg"> 
+          </DIV>
+  <DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>      
+         <SPAN class="tMeterScore">97%</SPAN>         </DIV>
+  <P class="title noSpacing">The Big Sick</P></A> </DIV>
+  <DIV class="cfpItem"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/m/wonder_woman_2017">
+  <P class="topText bold"></P>
+  <DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(1).jpg"> 
+          </DIV>
+  <DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>      
+         <SPAN class="tMeterScore">92%</SPAN>         </DIV>
+  <P class="title noSpacing">Wonder Woman</P></A> </DIV>
+  <DIV class="cfpItem"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/m/star_trek_beyond">
+  <P class="topText bold"></P>
+  <DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(2).jpg"> 
+          </DIV>
+  <DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>      
+         <SPAN class="tMeterScore">84%</SPAN>         </DIV>
+  <P class="title noSpacing">Star Trek Beyond</P></A> 
+  </DIV></DIV></DIV></DIV></DIV></LI>
+  <LI class="menuHeader center dropdown noSpacing dropdown-toggle"><A class="h2" 
+  id="tvMenu" href="https://www.rottentomatoes.com/top-tv/"> TV<SPAN class="fontelloIcon icon-down-dir"></SPAN></A>
+  <DIV class="dropdown-menu" id="tvMenuDropdown" role="menu" aria-labelledby="tvMenu">
+  <DIV class="row-sameColumnHeight">
+  <DIV class="col-xs-7 subnav">
+  <DIV class="innerSubnav" id="header-tv-col1">
+  <DIV class="clickForMore"><A class="unstyled articleLink" id="tv-list-21-view-all" 
+  href="https://www.rottentomatoes.com/browse/tv-list-1/">                       
+                   View All                                         <SPAN class="glyphicon glyphicon-menu-right"></SPAN></A> 
+                                  </DIV>
+  <H2 class="title">New TV Tonight</H2>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <TABLE class="movie_list tv_list" id="tv-list-21">
+    <TBODY>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/silicon_valley/s04"><SPAN 
+        class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">100%</SPAN> 
+                        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/silicon_valley/s04">Silicon 
+        Valley: Season 4</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/veep/s06"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">96%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/veep/s06">Veep: 
+        Season 6</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/twin_peaks/s03"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">95%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/twin_peaks/s03">Twin 
+        Peaks: The Return</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/claws/s01"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">77%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/claws/s01">Claws: 
+        Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/i_m_dying_up_here/s01"><SPAN 
+        class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">50%</SPAN> 
+                        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/i_m_dying_up_here/s01">I'm 
+        Dying Up Here: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/sunday_night_with_megyn_kelly/s01"><SPAN 
+        class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">30%</SPAN> 
+                        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/sunday_night_with_megyn_kelly/s01">Sunday 
+        Night With Megyn Kelly: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/mike_tyson_mysteries/s03"><SPAN 
+        class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/mike_tyson_mysteries/s03">Mike 
+        Tyson Mysteries: Season 3</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/fear_the_walking_dead/s03"><SPAN 
+        class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">89%</SPAN> 
+                        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/fear_the_walking_dead/s03">Fear 
+        the Walking Dead: Season 3</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/grantchester/s03"><SPAN 
+        class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/grantchester/s03">Grantchester: 
+        Season 3</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/my_mother_and_other_strangers_on_masterpiece/s01"><SPAN 
+        class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/my_mother_and_other_strangers_on_masterpiece/s01">My 
+        Mother and Other Strangers: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/power/s04"><SPAN 
+        class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/power/s04">Power: 
+        Season 4</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/preacher/s02"><SPAN 
+        class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">100%</SPAN> 
+                        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/preacher/s02">Preacher: 
+        Season 2</A>     </TD></TR></TBODY></TABLE></DIV></DIV>
+  <DIV class="col-xs-7 subnav">
+  <DIV class="innerSubnav" id="header-tv-col2">
+  <DIV class="clickForMore"><A class="unstyled articleLink" id="tv-list-24-view-all" 
+  href="https://www.rottentomatoes.com/browse/tv-list-2/">                       
+                   View All<SPAN 
+  class="glyphicon glyphicon-menu-right"></SPAN></A>                             
+      </DIV>
+  <H2 class="title">Most Popular TV on RT</H2>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <P></P>
+  <TABLE class="movie_list tv_list" id="tv-list-24">
+    <TBODY>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/the_handmaid_s_tale/s01"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">100%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/the_handmaid_s_tale/s01">The 
+        Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The 
+        Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The 
+        Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The 
+        Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The 
+        Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The 
+        Handmaid's Tale: The Handmaid's Tale: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/american_gods/s01"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">94%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/american_gods/s01">American 
+        Gods: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/fargo/s03"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">93%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/fargo/s03">Fargo: 
+        Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: 
+        Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Season 3</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/twin_peaks/s01"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">98%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/twin_peaks/s01">Twin 
+        Peaks: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/better_call_saul/s03"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">97%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/better_call_saul/s03">Better 
+        Call Saul: Better Call Saul: Better Call Saul: Better Call Saul: Better 
+        Call Saul: Better Call Saul: Better Call Saul: Better Call Saul: Better 
+        Call Saul: Better Call Saul: Better Call Saul: Better Call Saul: Better 
+        Call Saul: Better Call Saul: Better Call Saul: Better Call Saul: Better 
+        Call Saul: Season 3</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/el_chapo/s01"><SPAN 
+        class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/el_chapo/s01">El 
+        Chapo: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/master_of_none/s02"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">100%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/master_of_none/s02">Master 
+        of None: Season 2</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/house-of-cards/s05"><SPAN 
+        class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">72%</SPAN> 
+                        </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/house-of-cards/s05">House 
+        of Cards: Season 5</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/downward_dog/s01"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">90%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/downward_dog/s01">Downward 
+        Dog: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/orange_is_the_new_black/s05"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">77%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/orange_is_the_new_black/s05">Orange 
+        Is the New Black: Season 5</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/13_reasons_why/s01"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">86%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/13_reasons_why/s01">13 
+        Reasons Why: Season 1</A>     </TD></TR>
+    <TR class="tv_show_tr tvTopListTitle">
+      <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/g_l_o_w_/s01"><SPAN 
+        class="icon tiny certified_fresh"></SPAN>                     <SPAN 
+        class="tMeterScore">96%</SPAN>                 </A>     </TD>
+      <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/g_l_o_w_/s01">GLOW: 
+        GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: 
+        GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: Season 1</A>     
+    </TD></TR></TBODY></TABLE></DIV></DIV>
+  <DIV class="col-xs-5 subnav">
+  <DIV class="innerSubnav">
+  <H2 class="title">More</H2>
+  <UL class="list-unstyled" id="header-tv-more">
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/top-tv/">Top 
+    TV Shows</A></LI>
+    <LI><A class="unstyled articleLink" href="https://www.rottentomatoes.com/browse/tv-list-3/">Certified 
+    Fresh TV</A></LI></UL>
+  <H2 class="title" style="margin-top: 20px;">Episodic Reviews</H2>
+  <UL class="list-unstyled" id="header-tv-episodic-reviews">
+    <LI><A href="https://www.rottentomatoes.com/tv/american_gods/s01/#desktopEpisodeList"> 
+    American Gods: Season 1</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/the_americans/s05/#desktopEpisodeList"> 
+    The Americans: Season 5</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/better_call_saul/s03/#desktopEpisodeList"> 
+    Better Call Saul: Season 3</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/doctor_who/s10/#desktopEpisodeList"> 
+    Doctor Who: Season 10</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/fargo/s03/#desktopEpisodeList"> 
+    Fargo: Season 3</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/fear_the_walking_dead/s03/#desktopEpisodeList"> 
+    Fear the Walking Dead: Season 3</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/gotham/s03/#desktopEpisodeList"> 
+    Gotham: Season 3</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/the-leftovers/s03/#desktopEpisodeList"> 
+    The Leftovers: Season 3</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/orphan-black/s05/#desktopEpisodeList"> 
+    Orphan Black: Season 5</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/preacher/s02/#desktopEpisodeList"> 
+    Preacher: Season 2</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/twin_peaks/s03/#desktopEpisodeList"> 
+    Twin Peaks: The Return</A></LI>
+    <LI><A href="https://www.rottentomatoes.com/tv/the_walking_dead/s07/#desktopEpisodeList"> 
+    The Walking Dead: Season 7</A></LI></UL></DIV></DIV>
+  <DIV class="col-xs-5 subnav freshPicks inDropdownTv">
+  <DIV class="innerSubnav">
+  <H2 class="title">Certified Fresh Pick</H2>
+  <DIV class="cfpItem"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/tv/g_l_o_w_/s01">
+  <DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(3).jpg"> 
+          </DIV>
+  <DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>      
+         <SPAN class="tMeterScore">96%</SPAN>         </DIV>
+  <P class="title noSpacing">GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: 
+  GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: 
+  GLOW: Season 1</P></A> </DIV></DIV></DIV></DIV></DIV></LI>
+  <LI class="menuHeader center dropdown noSpacing dropdown-toggle"><A class="h2" 
+  id="newsMenu" href="https://editorial.rottentomatoes.com/">                
+  News<SPAN class="fontelloIcon icon-down-dir"></SPAN></A>
+  <DIV class="dropdown-menu" role="menu" aria-labelledby="newsMenu">
+  <DIV class="row-sameColumnHeight noSpacing">
+  <DIV class="col-xs-4 subnav">
+  <DIV class="innerSubnav" id="header-news-columns">
+  <H2 class="title">Columns</H2>
+  <UL class="list-unstyled">
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/24-frames/" 
+    data-pageheader="24 Frames">24 Frames</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/binge-guide/" 
+    data-pageheader="Binge Guide">Binge Guide</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/box-office-guru/" 
+    data-pageheader="Box Office Guru">Box Office Guru</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/critics-consensus/" 
+    data-pageheader="Critics Consensus">Critics Consensus</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/five-favorite-films/" 
+    data-pageheader="Five Favorite Films">Five Favorite Films</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/now-streaming/" 
+    data-pageheader="Now Streaming">Now Streaming</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/parental-guidance/" 
+    data-pageheader="Parental Guidance">Parental Guidance</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/red-carpet-roundup/" 
+    data-pageheader="Red Carpet Roundup">Red Carpet Roundup</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/rt-on-dvd/" 
+    data-pageheader="RT on DVD">RT on DVD</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/the-simpsons-decade/" 
+    data-pageheader="The Simpsons Decade">The Simpsons Decade</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/sub-cult/" 
+    data-pageheader="Sub-Cult">Sub-Cult</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/tech-talk/" 
+    data-pageheader="Tech Talk">Tech Talk</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/total-recall/" 
+    data-pageheader="Total Recall">Total Recall</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/tv-premieres-countdown/" 
+    data-pageheader="TV Countdown">TV Countdown</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/tv-talk/" 
+    data-pageheader="TV Talk">TV Talk</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/video-interviews/" 
+    data-pageheader="Video Interviews">Video Interviews</A></LI>
+    <LI><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/weekly-ketchup/" 
+    data-pageheader="Weekly Ketchup">Weekly Ketchup</A></LI></UL></DIV></DIV>
+  <DIV class="col-xs-6 subnav">
+  <DIV class="innerSubnav" id="header-news-best-worst">
+  <DIV class="clickForMore"><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/total-recall/" 
+  data-pageheader="Best and Worst - Show All">View All <SPAN class="glyphicon glyphicon-menu-right"></SPAN></A> 
+                                  </DIV>
+  <H2 class="title">Best and Worst</H2>
+  <DIV class="newsContainer">
+  <DIV class="newsContainerItem"><A class="articleLink unstyled" href="https://editorial.rottentomatoes.com/article/rank-michael-bays-10-biggest-box-office-hits/">
+  <DIV class="newsPhoto" style='background-image: url("https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2017/06/21142028/Michael-Bay-Box-Office-Recall.jpg");'></DIV>
+  <DIV class="newsTitle">                                                        
+  Rank Michael Bayâ€™s 10 Biggest Box Office Hits</DIV></A>                        
+                   </DIV>
+  <DIV class="newsContainerItem"><A class="articleLink unstyled" href="https://editorial.rottentomatoes.com/article/total-recall-pixar-movies/">
+  <DIV class="newsPhoto" style='background-image: url("https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2016/06/14105343/Pixar-Movies-Recall.jpg");'></DIV>
+  <DIV class="newsTitle">                                                        
+  All Pixar Movies From Best to Worst</DIV></A>                                  
+         </DIV></DIV></DIV></DIV>
+  <DIV class="col-xs-6 subnav">
+  <DIV class="innerSubnav" id="header-news-guides">
+  <DIV class="clickForMore"><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/rt-hubs/" 
+  data-pageheader="Guides - Show All">View All <SPAN class="glyphicon glyphicon-menu-right"></SPAN></A> 
+                                  </DIV>
+  <H2 class="title">Guides</H2>
+  <DIV class="newsContainer">
+  <DIV class="newsContainerItem"><A class="articleLink unstyled" href="https://editorial.rottentomatoes.com/rt-hub/summer-movie-guide-2017/">
+  <DIV class="newsPhoto" style='background-image: url("https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2017/05/03125712/summer-movie-guide-2017.jpg");'></DIV>
+  <DIV class="newsTitle">                                                    
+  Summer Movie Guide 2017</DIV></A>                                         
+  </DIV>
+  <DIV class="newsContainerItem"><A class="articleLink unstyled" href="https://editorial.rottentomatoes.com/rt-hub/spring-summer-tv-2017/">
+  <DIV class="newsPhoto" style='background-image: url("https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2017/03/25083759/SPRING-SUMMER-TV-2017.jpg");'></DIV>
+  <DIV class="newsTitle">                                                    
+  Spring/Summer TV Guide 2017</DIV></A>                                         
+  </DIV></DIV></DIV></DIV>
+  <DIV class="col-xs-6 subnav">
+  <DIV class="innerSubnav" id="header-news-rtnews">
+  <DIV class="clickForMore" style="margin-bottom: 0px;"><A class="unstyled articleLink" 
+  href="https://editorial.rottentomatoes.com/news/" data-pageheader="RT News - Show All">View 
+  All <SPAN class="glyphicon glyphicon-menu-right"></SPAN></A>                   
+                </DIV>
+  <H2 class="title">RT News</H2>
+  <DIV class="newsContainer">
+  <DIV class="newsContainerItem"><A class="articleLink unstyled" href="https://editorial.rottentomatoes.com/article/8-things-to-know-about-preacher-season-2/">
+  <DIV class="newsPhoto" style='background-image: url("https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2017/06/23232426/preacher-dominic-cooper-600x314.jpg");'></DIV>
+  <DIV class="newsTitle">                                                    8 
+  Things to Know About <EM>Preacher</EM> Season 2</DIV></A>                      
+                     </DIV>
+  <DIV class="newsContainerItem"><A class="articleLink unstyled" href="https://editorial.rottentomatoes.com/article/ron-howard-takes-over-the-han-solo-movie-and-more-news/">
+  <DIV class="newsPhoto" style='background-image: url("https://s3-us-west-2.amazonaws.com/flx-editorial-wordpress/wp-content/uploads/2017/06/23145044/Ron-Howard-Han-Solo-Ketchup.jpg");'></DIV>
+  <DIV class="newsTitle">                                                    Ron 
+  Howard Takes Over the <EM>Han Solo</EM> Movie, and More News</DIV></A>         
+                                  </DIV></DIV></DIV></DIV></DIV></DIV></LI>
+  <LI class="h2 menuHeader center noSpacing" id="header-tickets-showtimes" 
+  style="border-radius: 5px;"><A class="menuHeader" id="ticketingMenu" href="https://www.rottentomatoes.com/showtimes/"> 
+  Tickets &amp; Showtimes </A></LI></UL></DIV></DIV>
+<DIV class="trendingBar hidden-xs">
+<DIV class="fr">
+<UL class="list-inline social" id="trending_bar_social">
+  <LI class="header">Follow Us</LI>
+  <LI><A class="unstyled trendingLink fontelloIcon icon-facebook-squared white" 
+  id="header-facebook-social-link" href="http://www.facebook.com/rottentomatoes" 
+  target="_blank"></A></LI>
+  <LI><A class="unstyled trendingLink fontelloIcon icon-twitter white" id="header-twitter-social-link" 
+  href="http://twitter.com/rottentomatoes" target="_blank"></A></LI>
+  <LI><A class="unstyled trendingLink fontelloIcon icon-instagram white" id="header-instagram-social-link" 
+  href="https://www.instagram.com/rottentomatoes/"></A></LI>
+  <LI><A class="unstyled trendingLink fontelloIcon icon-snapchat white" id="header-snapchat-social-link" 
+  href="https://www.snapchat.com/add/rottentomatoes"></A></LI>
+  <LI><A class="unstyled trendingLink fontelloIcon icon-youtube-play white" id="header-youtube-social-link" 
+  href="http://www.youtube.com/user/rottentomatoes" target="_blank"></A></LI></UL>
+<DIV id="trending_bar_ad" style="display: none;"></DIV>
+<SCRIPT>
+                var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+                mps._queue.gptloaded.push(function() {
+                    if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+                        mps.insertAd('#trending_bar_ad','trendinggraphic');
+                    }
+                });
+            </SCRIPT>
+         </DIV>
+<UL class="list-inline trendingEl">
+  <LI class="header">Trending on RT</LI>
+  <LI><A class="unstyled trendingLink" href="https://editorial.rottentomatoes.com/gallery/game-of-thrones-season-7-trailer-2-reveals-more-details/"> 
+  Game of Thrones Trailer</A></LI>
+  <LI><A class="unstyled trendingLink" href="https://editorial.rottentomatoes.com/article/rank-the-transformers-movies/"> 
+  Rank The Transformers Movies</A></LI>
+  <LI><A class="unstyled trendingLink" href="https://www.rottentomatoes.com/m/transformers_the_last_knight_2017"> 
+  Transformers: The Last Knight</A></LI>
+  <LI><A class="unstyled trendingLink" href="https://editorial.rottentomatoes.com/guide/best-sci-fi-movies-of-all-time/"> 
+  Best Sci-Fi Movies</A></LI></UL></DIV></NAV>
+<DIV class="container " id="main_container">
+<DIV id="banner"><SECTION class="headline col-sm-12">
+<DIV class="headline carousel slide" id="headliners" data-ride="carousel">
+<OL class="carousel-indicators hidden-xs">
+  <LI class="active" data-target="#headliners" data-slide-to="0"></LI>
+  <LI data-target="#headliners" data-slide-to="1"></LI>
+  <LI data-target="#headliners" data-slide-to="2"></LI>
+  <LI data-target="#headliners" data-slide-to="3"></LI>
+  <LI data-target="#headliners" data-slide-to="4"></LI>
+  <LI data-target="#headliners" data-slide-to="5"></LI>
+  <LI data-target="#headliners" data-slide-to="6"></LI>
+  <LI data-target="#headliners" data-slide-to="7"></LI></OL>
+<DIV class="carousel-inner"><SECTION class="headlineItem darkPanelItem item active"><ASIDE 
+class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled homepage-carousel-image-link" 
+href="https://editorial.rottentomatoes.com/article/8-things-to-know-about-preacher-season-2/" 
+a="" <="" data-slide-index="0">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/cJNk33vU3DAuiW448BiyfDraJeQ=/1100x480/v1.czsxMDI3NzUyNztqOzE3NDQzOzEyMDA7NTUwOzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">Preach!</H3>
+<DIV class="panel-body"><SPAN class="title">8 Things To Know About 
+<EM>Preacher</EM> Season 2</SPAN>                             </DIV></DIV></A> 
+</SECTION><SECTION class="headlineItem darkPanelItem item"><ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled homepage-carousel-image-link" 
+href="https://editorial.rottentomatoes.com/guide/best-sci-fi-movies-of-all-time/" 
+a="" <="" data-slide-index="1">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/8PJzngf_1yI7jO19GfsGvfhJI6E=/1100x480/v1.czsxMDI3NzUyMjtqOzE3NDQzOzEyMDA7NTUwOzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">Countdown</H3>
+<DIV class="panel-body"><SPAN class="title">100 Best-Reviewed Sci-Fi Movies of 
+All Time (Spoiler: No <EM>Transformers</EM> On It)</SPAN>                        
+     </DIV></DIV></A> </SECTION><SECTION 
+class="headlineItem darkPanelItem item">     <ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled homepage-carousel-image-link" 
+href="https://editorial.rottentomatoes.com/article/transformers-the-last-knight-has-neither-the-touch-nor-the-power/" 
+a="" <="" data-slide-index="2">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/db6GT-thNPzMtJ9Za3OIiU4oYaI=/1100x480/v1.czsxMDI3NzUxNjtqOzE3NDQzOzEyMDA7NTUwOzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">Critics Consensus</H3>
+<DIV class="panel-body"><SPAN class="title"><EM>Transformers</EM> Has Neither 
+The Touch Nor The Power (Though <EM>The Big Sick</EM> Is Certified Fresh)</SPAN> 
+                            </DIV></DIV></A> </SECTION><SECTION class="headlineItem darkPanelItem item"> 
+    <ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled homepage-carousel-image-link" 
+href="https://editorial.rottentomatoes.com/article/stephen-king-tv-streaming-titles-before-the-mist/" 
+a="" <="" data-slide-index="3">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/PMm4RAqOQFX5bPY9u_Idoq3GwtI=/1100x480/v1.czsxMDI3NzUxODtqOzE3NDQzOzEyMDA7NTUwOzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">King Of Television</H3>
+<DIV class="panel-body"><SPAN class="title">20 Stephen King TV and Streaming 
+Titles Before <EM>The Mist</EM></SPAN>                             
+</DIV></DIV></A> </SECTION><SECTION class="headlineItem darkPanelItem item">     
+<ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled homepage-carousel-image-link" 
+href="https://editorial.rottentomatoes.com/article/kumail-nanjianis-five-favorite-films/" 
+a="" <="" data-slide-index="4">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/lOr6WCSv8wMyh4S4TTEC3vdHI8g=/1100x480/v1.czsxMDI3NzUxNTtqOzE3NDQzOzEyMDA7NTUwOzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">Five Favorite Films</H3>
+<DIV class="panel-body"><SPAN class="title">Kumail Nanjiani on <EM>The 
+Thing</EM>, <EM>Iron Giant</EM> and More</SPAN>                             
+</DIV></DIV></A> </SECTION><SECTION class="headlineItem darkPanelItem item">     
+<ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled homepage-carousel-image-link" 
+href="https://editorial.rottentomatoes.com/article/video-glow-stars-alison-brie-marc-maron-and-betty-gilpin-play-wrestler-or-rapper/" 
+a="" <="" data-slide-index="5">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/LV7foV-eJBxk1H2CR5C36bZcDDw=/1100x480/v1.czsxMDI3NzUxNztqOzE3NDQzOzEyMDA7NTUwOzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">Watch</H3>
+<DIV class="panel-body"><SPAN class="title"><EM>Glow</EM>'s Alison Brie, Marc 
+Maron, and Betty Gilpin Play 'Wrestler or Rapper?'</SPAN>                        
+     </DIV></DIV></A> </SECTION><SECTION 
+class="headlineItem darkPanelItem item">     <ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled homepage-carousel-image-link" 
+href="https://editorial.rottentomatoes.com/gallery/game-of-thrones-season-7-trailer-2-reveals-more-details/" 
+a="" <="" data-slide-index="6">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/DLSlsIDOSr1lfb_GR-qkNQGApVk=/1100x480/v1.czsxMDI3NzUxMjtqOzE3NDQzOzEyMDA7NTUwOzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">Shot By Shot</H3>
+<DIV class="panel-body"><SPAN class="title">Every Detail From the <EM>Game of 
+Thrones</EM> Season 7 Trailer </SPAN>                             
+</DIV></DIV></A> </SECTION><SECTION class="headlineItem darkPanelItem item">     
+<ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled homepage-carousel-image-link" 
+href="https://editorial.rottentomatoes.com/article/how-family-friendly-is-transformers-the-last-knight/" 
+a="" <="" data-slide-index="7">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/a9iLB7Vzh5O_DwrShUMQyMk5KBI=/1100x480/v1.czsxMDI3NzUyMztqOzE3NDQzOzEyMDA7NTUwOzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">Parental Guidance</H3>
+<DIV class="panel-body"><SPAN class="title">How Family-Friendly Is 
+<EM>Transformers: The Last Knight</EM>?</SPAN>                             
+</DIV></DIV></A> </SECTION></DIV><A class="left carousel-control" role="button" 
+href="https://www.rottentomatoes.com/#headliners" data-slide="prev"><SPAN class="glyphicon glyphicon-chevron-left"></SPAN></A> 
+                <A class="right carousel-control" role="button" href="https://www.rottentomatoes.com/#headliners" 
+data-slide="next"><SPAN class="glyphicon glyphicon-chevron-right"></SPAN></A>    
+         </DIV></SECTION><SECTION class="headlineItem headline darkPanelItem col-sm-6 hidden-xs" 
+id="homepage-spotlight1"><ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled" href="https://editorial.rottentomatoes.com/article/rank-michael-bays-10-biggest-box-office-hits/">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/CSLWcss8srCJdUN02VFdZq50c80=/540x480/v1.czsxMDI3NzUxMTtqOzE3NDQzOzEyMDA7Mjc0OzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">The Bay</H3>
+<DIV class="panel-body">
+<P class="title">Rank Michael Bay's 10 Biggest Box Office 
+Hits</P></DIV></DIV></A> </SECTION><SECTION class="headlineItem headline darkPanelItem col-sm-6 hidden-xs" 
+id="homepage-spotlight2">     <ASIDE class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P></ASIDE>     <A class="unstyled" href="https://editorial.rottentomatoes.com/article/ron-howard-takes-over-the-han-solo-movie-and-more-news/">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/UQJ86UmGAA67rTARTVTGtiNK4U0=/540x480/v1.czsxMDI3NzUyNjtqOzE3NDQzOzEyMDA7Mjc0OzI0MA");'></DIV>
+<DIV class="panel-rt bannerCaption subPanel">
+<H3 class="panel-heading">Weekly Ketchup</H3>
+<DIV class="panel-body">
+<P class="title">Ron Howard Takes Over <EM>Han Solo</EM> Movie, and More 
+News</P></DIV></DIV></A> </SECTION>
+<DIV id="spotlight_ad" style="height: 0px;"></DIV>
+<SCRIPT>
+        var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+        mps._queue.gptloaded.push(function() {
+            if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+                mps.insertAd('#spotlight_ad','spotlight');
+            }
+        });
+    </SCRIPT>
+ </DIV><SECTION class="panel-rt row" id="miniMOB">
+<DIV class="col-sm-17">
+<DIV class="row">
+<DIV class="col-sm-12 leftColumn col-full-xs">
+<DIV class="listings" id="homepage-opening-this-week"><A class="pull-right showtimesLink" 
+href="https://www.rottentomatoes.com/showtimes/">Get Tickets</A>                 
+        
+<H2>Movies Opening This Week</H2>
+<TABLE class="movie_list" id="Opening">
+  <TBODY>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/transformers_the_last_knight_2017"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">15%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/transformers_the_last_knight_2017">Transformers: 
+      The Last Knight</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/transformers_the_last_knight_2017"> 
+                         Jun 21</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/the_beguiled"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">74%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/the_beguiled">The 
+      Beguiled</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/the_beguiled"> 
+                         Jun 23</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/the_big_sick"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">97%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/the_big_sick">The 
+      Big Sick</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/the_big_sick"> 
+                         Jun 23</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/the_bad_batch"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">43%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/the_bad_batch">The 
+      Bad Batch</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/the_bad_batch"> 
+                         Jun 23</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/in_pursuit_of_silence"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">89%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/in_pursuit_of_silence">In 
+      Pursuit of Silence</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/in_pursuit_of_silence"> 
+                         Jun 23</A></TD></TR></TBODY></TABLE>
+<DIV class="clickForMore"><A class="unstyled articleLink" id="Opening-view-all" 
+href="https://www.rottentomatoes.com/browse/opening/">View All<SPAN class="glyphicon glyphicon-menu-right"></SPAN></A> 
+</DIV></DIV>
+<DIV class="listings" id="homepage-top-box-office"><A class="pull-right showtimesLink" 
+href="https://www.rottentomatoes.com/showtimes/">Get Tickets</A>                 
+        
+<H2>Top Box Office</H2>
+<TABLE class="movie_list" id="Top-Box-Office">
+  <TBODY>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A 
+      href="https://www.rottentomatoes.com/m/cars_3"><SPAN class="icon tiny fresh"></SPAN> 
+                          <SPAN class="tMeterScore">66%</SPAN>                 
+      </A></TD>
+    <TD class="middle_col"><A 
+      href="https://www.rottentomatoes.com/m/cars_3">Cars 3</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/cars_3"> 
+                         $53.7M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/wonder_woman_2017"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">92%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/wonder_woman_2017">Wonder 
+      Woman</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/wonder_woman_2017"> 
+                         $41.3M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/all_eyez_on_me_2017"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">22%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/all_eyez_on_me_2017">All 
+      Eyez on Me</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/all_eyez_on_me_2017"> 
+                         $26.5M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/the_mummy_2017"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">15%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/the_mummy_2017">The 
+      Mummy</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/the_mummy_2017"> 
+                         $14.6M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/47_meters_down"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">54%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/47_meters_down">47 
+      Meters Down</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/47_meters_down"> 
+                         $11.3M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/pirates_of_the_caribbean_dead_men_tell_no_tales"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">29%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/pirates_of_the_caribbean_dead_men_tell_no_tales">Pirates 
+      of the Caribbean: Dead Men Tell No Tales</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/pirates_of_the_caribbean_dead_men_tell_no_tales"> 
+                         $9M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/rough_night"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">48%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/rough_night">Rough 
+      Night</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/rough_night"> 
+                         $8.1M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/captain_underpants_the_first_epic_movie"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">85%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/captain_underpants_the_first_epic_movie">Captain 
+      Underpants: The First Epic Movie (Captain Underpants)</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/captain_underpants_the_first_epic_movie"> 
+                         $7.2M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/guardians_of_the_galaxy_vol_2"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">81%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/guardians_of_the_galaxy_vol_2">Guardians 
+      of the Galaxy Vol. 2</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/guardians_of_the_galaxy_vol_2"> 
+                         $5.1M</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/it_comes_at_night"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">86%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/it_comes_at_night">It 
+      Comes At Night</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/it_comes_at_night"> 
+                         $2.7M</A></TD></TR></TBODY></TABLE>
+<DIV class="clickForMore"><A class="unstyled articleLink" id="Top-Box-Office-view-all" 
+href="https://www.rottentomatoes.com/browse/in-theaters/">View All<SPAN class="glyphicon glyphicon-menu-right"></SPAN></A></DIV></DIV>
+<DIV id="sharethrough_bottom_ad"></DIV>
+<SCRIPT>
+        var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+        mps._queue.gptloaded.push(function() {
+            if (mps.getResponsiveSet() =='0') { //MOBILE
+                mps.insertAd('#sharethrough_bottom_ad','sharethrough','strnativekey=kNF58ebeAUneyUk61UVo2yLu;pos=bottom;');
+            }
+        });
+    </SCRIPT>
+ 
+<DIV class="listings" id="homepage-top-coming-soon">
+<H2>Coming Soon to Theaters</H2>
+<TABLE class="movie_list" id="Top-Coming-Soon">
+  <TBODY>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/despicable_me_3"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">85%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/despicable_me_3">Despicable 
+      Me 3</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/despicable_me_3"> 
+                         Jun 30</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/baby_driver"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">100%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/baby_driver">Baby 
+      Driver</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/baby_driver"> 
+                         Jun 28</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/the_house_2017"><SPAN 
+      class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+    </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/the_house_2017">The 
+      House</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/the_house_2017"> 
+                         Jun 30</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/okja"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">84%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A 
+      href="https://www.rottentomatoes.com/m/okja">Okja</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/okja"> 
+                         Jun 28</A></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/the_little_hours"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">84%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/the_little_hours">The 
+      Little Hours</A></TD>
+    <TD class="right_col right"><A href="https://www.rottentomatoes.com/m/the_little_hours"> 
+                         Jun 30</A></TD></TR></TBODY></TABLE>
+<DIV class="clickForMore"><A class="unstyled articleLink" id="Top-Coming-Soon-view-all" 
+href="https://www.rottentomatoes.com/browse/upcoming/">View All<SPAN class="glyphicon glyphicon-menu-right"></SPAN></A> 
+</DIV></DIV></DIV>
+<DIV class="col-sm-12 rightColumn col-full-xs">
+<DIV id="homepage-tv-top">
+<H2>New TV Tonight</H2>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<TABLE class="movie_list" id="tv-list-1">
+  <TBODY>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/silicon_valley/s04"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">100%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/silicon_valley/s04">Silicon 
+      Valley: Season 4</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A 
+      href="https://www.rottentomatoes.com/tv/veep/s06"><SPAN class="icon tiny certified_fresh"></SPAN> 
+                          <SPAN class="tMeterScore">96%</SPAN>                 
+      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/veep/s06">Veep: 
+      Season 6</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/twin_peaks/s03"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">95%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/twin_peaks/s03">Twin 
+      Peaks: The Return</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A 
+      href="https://www.rottentomatoes.com/tv/claws/s01"><SPAN class="icon tiny certified_fresh"></SPAN> 
+                          <SPAN class="tMeterScore">77%</SPAN>                 
+      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/claws/s01">Claws: 
+      Season 1</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/i_m_dying_up_here/s01"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">50%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/i_m_dying_up_here/s01">I'm 
+      Dying Up Here: Season 1</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/sunday_night_with_megyn_kelly/s01"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">30%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/sunday_night_with_megyn_kelly/s01">Sunday 
+      Night With Megyn Kelly: Season 1</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/mike_tyson_mysteries/s03"><SPAN 
+      class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+    </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/mike_tyson_mysteries/s03">Mike 
+      Tyson Mysteries: Season 3</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/fear_the_walking_dead/s03"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">89%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/fear_the_walking_dead/s03">Fear 
+      the Walking Dead: Season 3</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/grantchester/s03"><SPAN 
+      class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+    </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/grantchester/s03">Grantchester: 
+      Season 3</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/my_mother_and_other_strangers_on_masterpiece/s01"><SPAN 
+      class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+    </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/my_mother_and_other_strangers_on_masterpiece/s01">My 
+      Mother and Other Strangers: Season 1</A></TD></TR>
+  <TR class="tv_show_tr tvList1">
+    <TD class="left_col"><A 
+      href="https://www.rottentomatoes.com/tv/power/s04"><SPAN class="tMeterIcon tiny noRating">No 
+      Score Yet</SPAN>                 </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/power/s04">Power: 
+      Season 4</A></TD></TR></TBODY></TABLE>
+<DIV class="clickForMore"><A class="unstyled articleLink" id="tv-list-1-view-all" 
+href="https://www.rottentomatoes.com/browse/tv-list-1/">View All <SPAN class="glyphicon glyphicon-menu-right"></SPAN></A></DIV></DIV><ASIDE 
+class="medrec_ad visible-xs center mobile-medrec" id="medrec_mobileTBO_ad" 
+style="width: 300px;"></ASIDE>
+<SCRIPT>
+                var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+                mps._queue.gptloaded.push(function() {
+                    if (mps.getResponsiveSet() =='0') { //MOBILE
+                        mps.insertAd('#medrec_mobileTBO_ad','mboxadone');
+                    }
+                });
+            </SCRIPT>
+         
+<DIV id="homepage-tv-bottom">
+<H2>Most Popular TV on RT</H2>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<P></P>
+<TABLE class="movie_list" id="tv-list-2">
+  <TBODY>
+  <TR class="tv_show_tr tvList2">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/the_handmaid_s_tale/s01"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">100%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/the_handmaid_s_tale/s01">The 
+      Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The Handmaid's 
+      Tale: The Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The 
+      Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The Handmaid's 
+      Tale: The Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: The 
+      Handmaid's Tale: The Handmaid's Tale: The Handmaid's Tale: Season 
+  1</A></TD></TR>
+  <TR class="tv_show_tr tvList2">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/american_gods/s01"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">94%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/american_gods/s01">American 
+      Gods: Season 1</A></TD></TR>
+  <TR class="tv_show_tr tvList2">
+    <TD class="left_col"><A 
+      href="https://www.rottentomatoes.com/tv/fargo/s03"><SPAN class="icon tiny certified_fresh"></SPAN> 
+                          <SPAN class="tMeterScore">93%</SPAN>                 
+      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/fargo/s03">Fargo: 
+      Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: 
+      Fargo: Fargo: Fargo: Fargo: Fargo: Fargo: Season 3</A></TD></TR>
+  <TR class="tv_show_tr tvList2">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/twin_peaks/s01"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">98%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/twin_peaks/s01">Twin 
+      Peaks: Season 1</A></TD></TR>
+  <TR class="tv_show_tr tvList2">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/better_call_saul/s03"><SPAN 
+      class="icon tiny certified_fresh"></SPAN>                     <SPAN class="tMeterScore">97%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/better_call_saul/s03">Better 
+      Call Saul: Better Call Saul: Better Call Saul: Better Call Saul: Better 
+      Call Saul: Better Call Saul: Better Call Saul: Better Call Saul: Better 
+      Call Saul: Better Call Saul: Better Call Saul: Better Call Saul: Better 
+      Call Saul: Better Call Saul: Better Call Saul: Better Call Saul: Better 
+      Call Saul: Season 3</A></TD></TR>
+  <TR class="tv_show_tr tvList2">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/tv/el_chapo/s01"><SPAN 
+      class="tMeterIcon tiny noRating">No Score Yet</SPAN>                 
+    </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/tv/el_chapo/s01">El 
+      Chapo: Season 1</A></TD></TR></TBODY></TABLE>
+<DIV class="clickForMore"><A class="unstyled articleLink" id="tv-list-2-view-all" 
+href="https://www.rottentomatoes.com/browse/tv-list-2/">View All <SPAN class="glyphicon glyphicon-menu-right"></SPAN></A></DIV></DIV>
+<DIV id="homepage-top-dvd-streaming">
+<H2>Top DVD &amp; Streaming Movies</H2>
+<DIV id="dvd-affliate-links"><A id="fandango-affililate-link" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/?services=fandango_now">FandangoNOW</A> 
+|                             <A id="netflix-affiliate-link" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/?services=netflix_iw">Netflix</A> 
+|                             <A id="itunes-affiliate-link" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/?services=itunes">iTunes</A> 
+|                             <A id="amazon-affiliate-link" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/?services=amazon_prime;amazon">Amazon</A> 
+|                             <A id="all-affiliates-link" href="https://www.rottentomatoes.com/browse/dvd-streaming-all/">More...</A> 
+                        </DIV>
+<TABLE class="movie_list" id="Top-DVD">
+  <TBODY>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/cant_stop_wont_stop_a_bad_boy_story"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">43%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/cant_stop_wont_stop_a_bad_boy_story">Can't 
+      Stop, Won't Stop: A Bad Boy Story</A></TD>
+    <TD class="right_col right"></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A 
+      href="https://www.rottentomatoes.com/m/life_2017"><SPAN class="icon tiny fresh"></SPAN> 
+                          <SPAN class="tMeterScore">67%</SPAN>                 
+      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/life_2017">Life</A></TD>
+    <TD class="right_col right"></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/everybody_loves_somebody"><SPAN 
+      class="icon tiny fresh"></SPAN>                     <SPAN class="tMeterScore">93%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/everybody_loves_somebody">Everybody 
+      Loves Somebody</A></TD>
+    <TD class="right_col right"></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/wilson_2017"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">46%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/wilson_2017">Wilson</A></TD>
+    <TD class="right_col right"></TD></TR>
+  <TR class="sidebarInTheaterOpening">
+    <TD class="left_col"><A href="https://www.rottentomatoes.com/m/railroad_tigers_2017"><SPAN 
+      class="icon tiny rotten"></SPAN>                     <SPAN class="tMeterScore">36%</SPAN> 
+                      </A></TD>
+    <TD class="middle_col"><A href="https://www.rottentomatoes.com/m/railroad_tigers_2017">Railroad 
+      Tigers</A></TD>
+    <TD class="right_col right"></TD></TR></TBODY></TABLE>
+<DIV class="clickForMore"><A class="unstyled articleLink" id="Top-DVD-view-all" 
+href="https://www.rottentomatoes.com/browse/top-dvd-streaming/">View All<SPAN 
+class="glyphicon glyphicon-menu-right"></SPAN></A> </DIV></DIV></DIV>
+<DIV id="sponsored_media_hp_one_ad" style="display: none;"></DIV>
+<SCRIPT>
+        var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+        mps._queue.gptloaded.push(function() {
+            mps.insertAd('#sponsored_media_hp_one_ad','featuredmediaone');
+        });
+    </SCRIPT>
+     
+<DIV id="sponsored_media_hp_two_ad" style="display: none;"></DIV>
+<SCRIPT>
+        var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+        mps._queue.gptloaded.push(function() {
+            mps.insertAd('#sponsored_media_hp_two_ad','featuredmediatwo');
+        });
+    </SCRIPT>
+ </DIV></DIV><ASIDE class="adColumn col-sm-7 hidden-xs"><ASIDE class="medrec_ad " 
+id="medrec_top_ad" style="width: 300px;"></ASIDE>
+<SCRIPT>var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+                mps._queue.gptloaded.push(function() {
+                    if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+                        mps.insertAd('#medrec_top_ad','topmulti');
+                    }
+                });
+            </SCRIPT>
+         
+<DIV id="native_ad_slot"></DIV></ASIDE>     </SECTION>
+<DIV class="panel-rt cfpModule">
+<H1 class="panel-heading inlineBlock" style="vertical-align: bottom;">Certified 
+Fresh Picks</H1>
+<DIV class="inlineBlock" id="cfp_logo_ad" style="margin: 20px; vertical-align: bottom;"></DIV>
+<SCRIPT>
+        var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+        mps._queue.gptloaded.push(function() {
+            if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+                mps.rt.insertlogo('#cfp_logo_ad', 'ploc=cfplogo;');
+            }
+        });
+    </SCRIPT>
+ 
+<DIV class="panel-body row">
+<DIV class="col-sm-6 hidden-xs">
+<DIV class="tableCenterDiv"><IMG style="width: 132px; height: 132px;" src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/cf-lg.png"> 
+                </DIV>
+<P>                    Movies and TV shows are Certified Fresh with a steady 
+Tomatometer of 75% or higher after                    a set amount of reviews 
+(80 for wide-release movies, 40 for limited-release movies, 20                   
+ for TV shows), including 5 reviews from Top Critics.                 </P></DIV>
+<DIV class="col-sm-18 freshPicks">
+<DIV></DIV>
+<DIV class="cfpItem"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/m/the_big_sick">
+<P class="topText bold">In Theaters</P>
+<DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1.jpg"> 
+        </DIV>
+<DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>        
+     <SPAN class="tMeterScore">97%</SPAN>         </DIV>
+<P class="title noSpacing">The Big Sick</P></A> </DIV>
+<DIV class="cfpItem"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/m/wonder_woman_2017">
+<P class="topText bold">In Theaters</P>
+<DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(1).jpg"> 
+        </DIV>
+<DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>        
+     <SPAN class="tMeterScore">92%</SPAN>         </DIV>
+<P class="title noSpacing">Wonder Woman</P></A> </DIV>
+<DIV class="cfpItem hidden-xs"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/m/star_trek_beyond">
+<P class="topText bold">ON DVD/STREAMING</P>
+<DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(2).jpg"> 
+        </DIV>
+<DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>        
+     <SPAN class="tMeterScore">84%</SPAN>         </DIV>
+<P class="title noSpacing">Star Trek Beyond</P></A> </DIV>
+<DIV class="cfpItem"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/tv/g_l_o_w_/s01">
+<P class="topText bold">On TV</P>
+<DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(3).jpg"> 
+        </DIV>
+<DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>        
+     <SPAN class="tMeterScore">96%</SPAN>         </DIV>
+<P class="title noSpacing">GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: 
+GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: GLOW: 
+Season 1</P></A> </DIV>
+<DIV class="cfpItem hidden-xs"><A class="unstyled articleLink cfpLinks" href="https://www.rottentomatoes.com/tv/twin_peaks/s03">
+<P class="topText bold">On TV</P>
+<DIV class="imgContainer"><IMG src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(4).jpg"> 
+        </DIV>
+<DIV class="movie_content_area"><SPAN class="icon tiny certified"></SPAN>        
+     <SPAN class="tMeterScore">95%</SPAN>         </DIV>
+<P class="title noSpacing">Twin Peaks: The Return</P></A> </DIV></DIV></DIV>
+<DIV class="cert-fresh">
+<DIV class="clickForMore"><A class="unstyled articleLink" style="cursor: pointer;" 
+href="https://www.rottentomatoes.com/browse/cf-in-theaters/">More Certified 
+Fresh <SPAN 
+class="glyphicon glyphicon-menu-right"></SPAN></A></DIV></DIV></DIV><SECTION 
+class="panel-rt dark" id="videoPanel">
+<H1 class="panel-heading">Trailers &amp; Videos</H1>
+<DIV class="panel-body"><A class="unstyled col-sm-11 video0 darkPanelItem" id="homepage-main-video" 
+href="https://www.rottentomatoes.com/tv/game_of_thrones/s07/videos/11299084">
+<DIV class="videoItem translucent-container subPanel">
+<DIV class="bannerPic videoSection  headliner">
+<DIV class="containingDiv">
+<DIV class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P>
+<DIV class="sponsored-bg"></DIV></DIV><IMG class="videoPic" src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(5).jpg"> 
+                
+<H3 class="panel-heading">Season 7</H3>
+<DIV class="playButton"><SPAN class="glyphicon glyphicon-play-circle light-translucent white"></SPAN> 
+                </DIV></DIV>
+<DIV class="panel-rt bannerCaption">
+<DIV class="panel-body">
+<P class="title"><EM>Game of Thrones</EM></P>
+<P class="detail">"Winter is here." Check out the new <EM>Game of Thrones</EM> 
+Season 7 trailer starring Peter Dinklage, Lena Headey, and Emilia 
+Clarke.</P></DIV></DIV></DIV></DIV></A>
+<DIV class="col-sm-13">                 
+<DIV class="row" id="homepage-secondary-video-row1"><A class="unstyled col-sm-12 darkPanelItem video1" 
+href="https://editorial.rottentomatoes.com/article/video-watch-tom-cruise-run-through-most-of-his-movies/">
+<DIV class="videoItem translucent-container subPanel">
+<DIV class="bannerPic videoSection ">
+<DIV class="containingDiv">
+<DIV class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P>
+<DIV class="sponsored-bg"></DIV></DIV><IMG class="videoPic" src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(6).jpg"> 
+                
+<H3 class="panel-heading">Mashup</H3>
+<DIV class="playButton"><SPAN class="glyphicon glyphicon-play-circle light-translucent white"></SPAN> 
+                </DIV></DIV>
+<DIV class="panel-rt bannerCaption">
+<DIV class="panel-body">
+<P class="title">Run Tom Run</P>
+<P class="detail">Watch Tom Cruise Run Through Most of His 
+Movies</P></DIV></DIV></DIV></DIV></A><A class="unstyled col-sm-12 darkPanelItem video2" 
+href="http://editorial.rottentomatoes.com/article/it-comes-at-night-riley-keough-carmen-ejogo-on-tension-building/"> 
+    
+<DIV class="videoItem translucent-container subPanel">
+<DIV class="bannerPic videoSection ">
+<DIV class="containingDiv">
+<DIV class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P>
+<DIV class="sponsored-bg"></DIV></DIV><IMG class="videoPic" src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(7).jpg"> 
+                
+<H3 class="panel-heading">Exclusive</H3>
+<DIV class="playButton"><SPAN class="glyphicon glyphicon-play-circle light-translucent white"></SPAN> 
+                </DIV></DIV>
+<DIV class="panel-rt bannerCaption">
+<DIV class="panel-body">
+<P class="title"><EM>It Comes At Night</EM></P>
+<P class="detail">Riley Keough and Carmen Ejogo on Building Paranoid 
+Tension</P></DIV></DIV></DIV></DIV></A></DIV>
+<DIV class="row" id="homepage-secondary-video-row2"><A class="unstyled col-sm-12 hidden-xs darkPanelItem video3" 
+href="https://editorial.rottentomatoes.com/article/video-how-wonder-woman-will-change-the-world/">
+<DIV class="videoItem translucent-container subPanel">
+<DIV class="bannerPic videoSection ">
+<DIV class="containingDiv">
+<DIV class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P>
+<DIV class="sponsored-bg"></DIV></DIV><IMG class="videoPic" src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(8).jpg"> 
+                
+<H3 class="panel-heading">Interview</H3>
+<DIV class="playButton"><SPAN class="glyphicon glyphicon-play-circle light-translucent white"></SPAN> 
+                </DIV></DIV>
+<DIV class="panel-rt bannerCaption">
+<DIV class="panel-body">
+<P class="title"><EM>Wonder Woman</EM></P>
+<P class="detail">How <EM>Wonder Woman</EM> Will Change the 
+World</P></DIV></DIV></DIV></DIV></A><A class="unstyled col-sm-12 hidden-xs darkPanelItem video4" 
+href="https://editorial.rottentomatoes.com/article/video-how-long-can-ed-helms-hold-his-tra-la-laaa/"> 
+    
+<DIV class="videoItem translucent-container subPanel">
+<DIV class="bannerPic videoSection ">
+<DIV class="containingDiv">
+<DIV class="sponsored-tag">
+<P class="sponsored-text">FEATURED</P>
+<DIV class="sponsored-bg"></DIV></DIV><IMG class="videoPic" src="Rotten%20Tomatoes%20Movies%20%20TV%20Shows%20%20Movie%20Trailers%20%20Reviews_files/v1(9).jpg"> 
+                
+<H3 class="panel-heading">Interview</H3>
+<DIV class="playButton"><SPAN class="glyphicon glyphicon-play-circle light-translucent white"></SPAN> 
+                </DIV></DIV>
+<DIV class="panel-rt bannerCaption">
+<DIV class="panel-body">
+<P class="title"><EM>Captain Underpants</EM></P>
+<P class="detail">How Long Can Ed Helms Hold His 
+Tra-La-Laaa?</P></DIV></DIV></DIV></DIV></A></DIV>
+<DIV class="clickForMore"><A class="unstyled articleLink" id="homepage-view-all-videos" 
+href="https://editorial.rottentomatoes.com/video-interviews/"><SPAN class="lightGray"> 
+                           View All Videos <SPAN class="glyphicon glyphicon-menu-right"></SPAN> 
+                        </SPAN>                     </A>                 
+</DIV></DIV></DIV>
+<DIV id="sponsored_video_ad" style="display: none;"></DIV>
+<SCRIPT>
+        var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+        mps._queue.gptloaded.push(function() {
+            mps.insertAd('#sponsored_video_ad','featuredtrailer');
+        });
+    </SCRIPT>
+ 
+<DIV id="featured_ad_video_ad" style="display: none;"></DIV>
+<SCRIPT>
+        var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+        mps._queue.gptloaded.push(function() {
+            if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+                mps.insertAd('#featured_ad_video_ad','featuredvideo');
+            }
+        });
+    </SCRIPT>
+ </SECTION><SECTION class="panel panel-rt panel-box " id="newsAndFeatures">
+<H2 class="panel-heading">News &amp; Features</H2>
+<DIV class="panel-body content_body">
+<DIV>
+<DIV>
+<DIV id="FeaturedSection">
+<DIV class="newsItem col-sm-6 col-xs-12"><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/article/moana-star-trek-beyond-and-more-on-netflix-and-amazon-prime-this-week/">
+<DIV class="bannerPicContainer">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/e8wK8HS6Y9nkp2z9bNnzbt12hJY=/247x138/v1.czsxMDI3NzUxMztqOzE3NDQzOzEyMDA7MjQ3OzEzOA");'></DIV></DIV>
+<DIV class="bannerCaption">
+<P class="noSpacing title">Now Streaming</P>
+<P class="byline noSpacing"><EM>Moana</EM>, <EM>Star Trek Beyond</EM> added to 
+Netflix, Amazon Prime</P></DIV></A>                             </DIV>
+<DIV class="newsItem col-sm-6 col-xs-12"><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/article/why-the-lonely-islands-popstar-never-stop-never-stopping-deserves-a-cult-following/">
+<DIV class="bannerPicContainer">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/BEPYJABiapAAIYnbxroz50MWZ5Y=/247x138/v1.czsxMDI3NzUyNTtqOzE3NDQzOzEyMDA7MjQ3OzEzOA");'></DIV></DIV>
+<DIV class="bannerCaption">
+<P class="noSpacing title">Dope Since Birth</P>
+<P class="byline noSpacing">Why <EM>Popstar</EM> deserves a cult 
+following</P></DIV></A>                             </DIV>
+<DIV class="newsItem col-sm-6 col-xs-12"><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/gallery/24-movies-that-will-make-you-appreciate-daylight/">
+<DIV class="bannerPicContainer">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/octy39bMs3lbrWtKJdbXNbmEZ34=/247x138/v1.czsxMDI3NzUyNDtqOzE3NDQzOzEyMDA7MjQ3OzEzOA");'></DIV></DIV>
+<DIV class="bannerCaption">
+<P class="noSpacing title">Daylight Appreciation!</P>
+<P class="byline noSpacing">24 movies that will make you appreciate 
+daylight</P></DIV></A>                             </DIV>
+<DIV class="newsItem col-sm-6 col-xs-12"><A class="unstyled articleLink" href="https://editorial.rottentomatoes.com/article/on-dvd-this-week-life-and-more/">
+<DIV class="bannerPicContainer">
+<DIV class="bannerPic" style='background-image: url("https://resizing.flixster.com/HxXBFsZr9TaqrRmGrfsIBo5tmg4=/247x138/v1.czsxMDI3NzUxNDtqOzE3NDQzOzEyMDA7MjQ3OzEzOA");'></DIV></DIV>
+<DIV class="bannerCaption">
+<P class="noSpacing title">New on DVD &amp; Blu-ray</P>
+<P class="byline noSpacing">Choose <EM>Life</EM> or suffer <EM>8 Million Ways to 
+Die</EM></P></DIV></A>                             </DIV></DIV>
+<DIV class="clickForMore"><A class="articleLink unstyled" href="https://editorial.rottentomatoes.com/news/">
+<P>More News &amp; Features <SPAN 
+class="glyphicon glyphicon-menu-right"></SPAN></P></A>                     
+</DIV></DIV>
+<DIV class="col-sm-17 newsList hidden-xs">
+<H2>TOP HEADLINES</H2>
+<DIV class="col-sm-12">
+<UL class="redDot">
+  <LI><A class="articleLink unstyled" href="http://ew.com/movies/2017/06/22/ron-howard-takes-over-directing-duties-on-han-solo-film/" 
+  target="_blank">                    Ron Howard Takes Over <I>Han Solo</I> 
+  Spinoff</A>                 <BR><SPAN class="subtle">â€“ Entertainment 
+  Weekly</SPAN>                 </LI>
+  <LI><A class="articleLink unstyled" href="http://www.hollywoodreporter.com/heat-vision/jurassic-world-sequel-gets-title-first-poster-1015939" 
+  target="_blank">                    The <I>Jurassic World</I> Sequel Has a 
+  Title</A>                 <BR><SPAN class="subtle">â€“ Hollywood Reporter</SPAN> 
+                  </LI>
+  <LI><A class="articleLink unstyled" href="http://www.hollywoodreporter.com/heat-vision/spider-man-homecoming-how-sony-learned-cede-control-marvel-1015408" 
+  target="_blank">                    Sonyâ€™s <I>Venom</I> Movie Will Feature the 
+  Debut of Carnage</A>                 <BR><SPAN class="subtle">â€“ Hollywood 
+  Reporter</SPAN>                 </LI>
+  <LI><A class="articleLink unstyled" href="http://variety.com/2017/film/news/saw-legacy-retitled-jigsaw-1202474197/" 
+  target="_blank"><I>Saw: Legacy</I> Is Now <I>Jigsaw</I></A>                 
+  <BR><SPAN class="subtle">â€“ Variety</SPAN>                 </LI></UL></DIV>
+<DIV class="col-sm-12">
+<UL class="redDot">
+  <LI><A class="articleLink unstyled" href="http://www.hollywoodreporter.com/heat-vision/star-wars-han-solo-film-loses-directors-1015419" 
+  target="_blank">                    Han Solo Movie Loses Directors Phil Lord 
+  and Christopher Miller</A>                 <BR><SPAN class="subtle">â€“ 
+  Hollywood Reporter</SPAN>                 </LI>
+  <LI><A class="articleLink unstyled" href="http://www.hollywoodreporter.com/news/daniel-day-lewis-says-hes-quitting-acting-1015235" 
+  target="_blank">                    Daniel Day-Lewis Announces Retirement</A>  
+                 <BR><SPAN class="subtle">â€“ Hollywood Reporter</SPAN>            
+       </LI>
+  <LI><A class="articleLink unstyled" href="http://variety.com/2017/film/news/warner-bros-christine-lavaf-twilight-zone-movie-1202472644/" 
+  target="_blank"><I>Twilight Zone</I> Movie Lands New Writer</A>                
+   <BR><SPAN class="subtle">â€“ Variety</SPAN>                 </LI>
+  <LI><A class="articleLink unstyled" href="http://www.hollywoodreporter.com/news/a-simple-favor-paul-feig-direct-anna-kendrick-blake-lively-1015134" 
+  target="_blank">                    Anna Kendrick and Blake Lively Get <I>A 
+  Simple Favor</I> from Paul Feig</A>                 <BR><SPAN class="subtle">â€“ 
+  Hollywood Reporter</SPAN>                 </LI></UL></DIV>
+<DIV class="clickForMore"><A class="articleLink unstyled" href="https://editorial.rottentomatoes.com/publications/">
+<P>More Headlines <SPAN class="glyphicon glyphicon-menu-right"></SPAN></P></A>   
+                  </DIV></DIV>
+<DIV class="col-sm-7 center"><ASIDE class="medrec_ad " id="medrec_bottom_ad" 
+style="width: 300px;"></ASIDE>
+<SCRIPT>
+                var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+                mps._queue.gptloaded.push(function() {
+                    if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+                        mps.insertAd('#medrec_bottom_ad','boxadone');
+                    } else if (mps.getResponsiveSet() == '0' && 'home' == 'home') {
+                        mps.insertAd('#medrec_bottom_ad','mboxadtwo');
+                    }
+                });
+            </SCRIPT>
+         </DIV></DIV></DIV></SECTION>
+<SCRIPT>
+        require(["https://staticv2-4.rottentomatoes.com/static/dist/jspjs/homepage.jsp.min.js"]);
+    </SCRIPT>
+ </DIV>
+<SCRIPT>console.info("body content:" + window.performance.now());</SCRIPT>
+         
+<DIV class="sleaderboard_wrapper hidden-xs">
+<DIV id="leaderboard_bottom_ad" style="margin-right: auto; margin-left: auto; display: inline-block;"></DIV>
+<SCRIPT>
+			var mps=mps||{}; mps._queue=mps._queue||{}; mps._queue.gptloaded=mps._queue.gptloaded||[];
+			mps._queue.gptloaded.push(function() {
+				if (mps.getResponsiveSet() !='0') { //DESKTOP or TABLET
+					mps.insertAd('#leaderboard_bottom_ad','bottombanner');
+				}
+			});
+		</SCRIPT>
+	 </DIV>
+<STYLE>#skin_ad { height:0px !important; }</STYLE>
+ 
+<DIV id="skin_ad"></DIV><FOOTER class="hidden-xs" id="foot">
+<DIV class="row">
+<DIV class="col-xs-5 subnav">
+<UL class="unstyled">
+  <LI><A class="unstyled trendingLink" id="footer-help" href="https://www.rottentomatoes.com/help_desk/">Help</A></LI>
+  <LI><A class="unstyled trendingLink" id="footer-about" href="https://www.rottentomatoes.com/about/">About 
+  Rotten Tomatoes</A></LI>
+  <LI><A class="unstyled trendingLink" id="footer-tomatometer" style="cursor: pointer;" 
+  data-toggle="modal" data-target="#whatIsTomatometer">What's the 
+  Tomatometer?</A></LI>
+  <LI><A class="unstyled trendingLink" id="footer-feedback" href="https://fandango.az1.qualtrics.com/SE/?SID=SV_cGSHgMIu5ivVwAB" 
+  target="_blank">Feedback</A></LI></UL></DIV>
+<DIV class="col-xs-4 subnav">
+<UL>
+  <LI><A class="unstyled trendingLink" id="footer-critics" href="https://www.rottentomatoes.com/help_desk/critics/">Critic 
+  Submission</A></LI>
+  <LI><A class="unstyled trendingLink" id="footer-licensing" href="https://www.rottentomatoes.com/help_desk/licensing/">Licensing</A></LI>
+  <LI><A class="unstyled trendingLink" id="footer-advertise" href="https://www.fandango.com/Advertising.aspx">Advertise</A></LI>
+  <LI><A class="unstyled trendingLink" id="footer-jobs" href="https://www.fandango.com/careers">Careers</A></LI></UL></DIV>
+<DIV class="col-xs-7 subnav center">
+<H2><SPAN class="glyphicon glyphicon-envelope"></SPAN>&nbsp;&nbsp;JOIN THE 
+NEWSLETTER</H2>
+<DIV class="default-half-margin-vertical">                Get the freshest 
+reviews, news, and more delivered right to your inbox!             </DIV>
+<DIV class="default-margin"><A class="btn btn-primary" href="https://www.rottentomatoes.com/newsletter"> 
+                   Join the Newsletter!                 </A>             
+</DIV></DIV>
+<DIV class="col-xs-8 subnav">
+<H2>Follow Us</H2>
+<DIV><A class="unstyled trendingLink fontelloIcon icon-facebook-squared footerIcon" 
+id="footer-follow-us-facebook" 
+href="http://www.facebook.com/rottentomatoes"></A>&nbsp;&nbsp;&nbsp;             
+   <A class="unstyled trendingLink fontelloIcon icon-twitter footerIcon" id="footer-follow-us-twitter" 
+href="http://twitter.com/rottentomatoes"></A>&nbsp;&nbsp;&nbsp;                
+<A class="unstyled trendingLink fontelloIcon icon-instagram footerIcon" id="footer-follow-us-instagram" 
+href="https://www.instagram.com/rottentomatoes/"></A>&nbsp;&nbsp;&nbsp;          
+      <A class="unstyled trendingLink fontelloIcon icon-snapchat footerIcon" id="footer-follow-us-snapchat" 
+href="https://www.snapchat.com/add/rottentomatoes"></A>&nbsp;&nbsp;&nbsp;        
+        <A class="unstyled trendingLink fontelloIcon icon-youtube-play footerIcon" 
+id="footer-follow-us-youtube" 
+href="http://www.youtube.com/user/rottentomatoes"></A>&nbsp;&nbsp;&nbsp;         
+   </DIV></DIV></DIV>
+<DIV class="subtle" style="padding: 10px;"><SPAN class="easteregg">Copyright Â© 
+Fandango. All rights reserved.</SPAN> <SPAN style="color: black;">V2</SPAN>      
+   <A id="footer-privacy" href="https://www.fandango.com/PrivacyPolicy">Privacy 
+Policy</A> |         <A id="footer-tos" href="https://www.fandango.com/terms-and-policies">Terms 
+and Policies</A> |         <A class="adchoices" id="footer-ad-choices" href="https://www.aboutads.info/choices">Ad 
+Choices</A>     </DIV></FOOTER> <FOOTER class="visible-xs-block" 
+id="mobileFoot">
+<DIV class="white">Copyright Â© Fandango. All rights reserved. <SPAN style="color: black;">V2</SPAN></DIV>
+<DIV class="default-margin"><A class="btn btn-primary" href="https://www.rottentomatoes.com/newsletter">Join 
+Newsletter</A>     </DIV>
+<DIV><A class="footerLinks" 
+href="https://www.fandango.com/terms-and-policies">Terms and 
+Policies</A>&nbsp;&nbsp;&nbsp;&nbsp;        <A class="footerLinks" href="https://www.fandango.com/PrivacyPolicy">Privacy 
+Policy</A>&nbsp;&nbsp;&nbsp;&nbsp;        <A class="footerLinks" href="https://fandango.az1.qualtrics.com/SE/?SID=SV_cGSHgMIu5ivVwAB" 
+target="_blank">Feedback</A>     </DIV></FOOTER></DIV>
+<SCRIPT class="LoginModalTemplate" type="text/template">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <h2 class="modal-title">Log In</h2>
+            </div>
+            <div class="modal-body loginForm">
+                <div class="error"></div>
+                <p>
+                    <a id="fbLoginButton" class="btn btn-primary-fb btn-lg fullWidth">
+                        <i class="fontelloIcon icon-facebook-squared"></i>
+                        Log in with Facebook
+                    </a>
+                </p>
+                <div style="border-bottom:1px solid gray;margin-bottom:10px;padding-bottom:10px;">
+                    <div style="background-color:white;left:50%;margin-left:-10px;padding:0 10px;position:absolute">OR</div>
+                </div>
+                <div class="loginInfo">
+                    <div class="form-group username">
+                        <label class="control-label" for="login_username">Email address</label>
+                        <input id="login_username" class="form-control" name="login_username" placeholder="Email Address" type="email">
+                        <span class="help-block"></span>
+                    </div>
+                    <div class="form-group password">
+                        <label class="control-label" for="login_password">Password</label>
+                        <input id="login_password" type="password" class="form-control" name="login_password" placeholder="Password">
+                        <span class="help-block"></span>
+                    </div>
+                    <div class="form-group">
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-login">Log In</button>
+                        </div>
+                    </div>
+                    <input type="hidden" name="redirectUrl" value="" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p>
+                    <a class="passwordModal" data-dismiss="modal" data-toggle="modal" data-target="#forgot-password">Forgot your password?</a><br />
+                    Don't have an account? <a class="signupModal" data-dismiss="modal" data-toggle="modal" data-target="#signup">Sign up here</a>
+                </p>
+            </div>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
-</html>
+    </div>
+</SCRIPT>
+ 
+<SCRIPT class="SignupModalTemplate" type="text/template">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <h2 class="modal-title">Sign up for Rotten Tomatoes</h2>
+            </div>
+            <div class="modal-body">
+                <a href="javascript:FB.login();" class="btn btn-primary-fb btn-lg fullWidth">
+                    <i class="fontelloIcon icon-facebook-squared"></i>
+                    Sign up with Facebook
+                </a>
+                <p class="text-center">
+                    OR
+                </p>
+                <div class="form-group col-xs-12 first_name">
+                    <label class="control-label fullWidth" for="register_first_name">
+                        First Name
+                    </label>
+                    <div class="fullWidth">
+                        <input id="register_first_name" class="form-control" name="register_first_name" />
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+                <div class="form-group col-xs-12 last_name">
+                    <label class="control-label fullWidth" for="register_first_name">
+                        Last Name
+                    </label>
+                    <div class="fullWidth">
+                        <input id="register_last_name" class="form-control" name="register_last_name" />
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+                <div class="form-group col-xs-24 email">
+                    <label class="control-label fullWidth" for="register_email">
+                        Email
+                    </label>
+                    <div class="fullWidth">
+                        <input id="register_email" class="form-control" name="register_email" />
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+                <div class="form-group col-xs-24 password">
+                    <label class="control-label fullWidth" for="register_password">
+                        Password
+                    </label>
+                    <div class="fullWidth">
+                        <input id="register_password" class="form-control" name="register_password" type="password" />
+                    </div>
+                    <span class="help-block"></span>
+                </div>
+                <div class="form-group col-xs-24 recaptcha">
+                    <div id="recaptchaSignupBlock" class="recaptchaBlock"></div>
+                </div>
+                <div class="form-group">
+                    <div class="text-center">
+                        <p><small>
+                            By clicking "Sign up", I agree to the
+                            <a href="http://www.fandango.com/policies/terms-and-policies" target="_blank">Terms of Service</a>
+                            and <a href="http://www.fandango.com/policies/privacy-policy" target="_blank">Privacy Policy</a>.
+                        </small></p>
+                        <button type="submit" class="btn btn-primary btn-signup disabled">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p class="text-center">
+                    <small>Already have an account? <a class="loginModal" data-dismiss="modal" data-toggle="modal" data-target="#login">Log in here</a></small>
+                </p>
+            </div>
+        </div>
+    </div>
+</SCRIPT>
+ 
+<SCRIPT class="PasswordModalTemplate" type="text/template">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                </button>
+                <@ if (initialState) { @>
+                <h2 class="modal-title">Forgot your password</h2>
+                <@ } else { @>
+                <h2 class="modal-title">Password sent</h2>
+                <@ } @>
+            </div>
+            <div class="modal-body">
+                <@ if (initialState) { @>
+                    <@ if (errorMessage) { @>
+                        <div class="alert alert-danger alert-dismissible" role="alert">
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <@= errorMessage @>
+                        </div>
+                    <@ } @>
+                    <p>
+                        Please enter your email address and we will email you a new password.
+                    </p>
+                    <div class="form-group col-xs-24">
+                        <label class="control-label fullWidth" for="forgot_email_address">
+                            Email Address
+                        </label>
+                        <div class="fullWidth">
+                            <input id="forgot_email_address" class="form-control" name="forgot_email_address" />
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-submit">Submit</button>
+                <@ } else { @>
+                    <div>
+                        Check your email for a link to reset your password. <br/> <br/>
+                        NOTE: If you do not get the new password email in your inbox,
+                        check your Bulk Mail or Spam folder.
+                    </div>
+                    <a class="loginModal btn btn-primary" data-dismiss="modal" data-toggle="modal" data-target="#login">
+                        Log in
+                    </a>
+                <@ } @>
+            </div>
+        </div>
+    </div>
+</SCRIPT>
+ 
+<SCRIPT class="PageHeaderLoginTemplate" type="text/template">
+    <@ if (loggedIn) { @>
+        <div class="userDropdown dropdown">
+            <a rel="nofollow" href="/user/id/<@= flixsterId @>">
+                <img class="userThumb" src="<@= thumbnailUrl @>" />
+                <span class="userName"><@= firstName @></span>
+                <span class="fontelloIcon icon-down-dir"></span>
+            </a>
+            <ul class="dropdown-menu roundMenu">
+                <li class="media userStats">
+                    <a rel="nofollow" class="pull-left" href="/user/id/<@= flixsterId @>/">
+                        <img src="<@= thumbnailUrl @>" width="40" alt="<@= firstName @>">
+                    </a>
+                    <div class="media-body">
+                        <div class="name">
+                            <a rel="nofollow" href="/user/id/<@= flixsterId @>/" class="unstyled articleLink name"><@= firstName @>&nbsp;<@= lastName @></a>
+                        </div>
+                        <div class="wts">
+                            <a rel="nofollow" href="/user/id/<@= flixsterId @>/wts" class="unstyled articleLink stat">
+                                <span class="glyphicon glyphicon-plus" style="color:#0C89C8"></span>
+                                <span class="count"><@= wtsCount @></span>
+                                &nbsp;Wants to See
+                            </a>
+                        </div>
+                        <div class="ratings">
+                            <a rel="nofollow" href="/user/id/<@= flixsterId @>/ratings" class="unstyled articleLink stat">
+                                <span class="glyphicon glyphicon-star" style="color:#F18714"></span>
+                                <span class="count"><@= ratingCount @></span>
+                                &nbsp;Ratings
+                            </a>
+                        </div>
+                        <div class="friends">
+                            <a rel="nofollow" href="/user/id/<@= flixsterId @>/friends" class="unstyled articleLink stat">
+                                <span class="icon friends"></span>
+                                <span class="count"><@= friendCount @></span>
+                                &nbsp;friends
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="header-top-bar-item">
+                    <a rel="nofollow" id="header-top-bar-profile" class="articleLink" href="/user/id/<@= flixsterId @>/" style="margin-bottom:-4px">Profile</a>
+                </li>
+                <li class="header-top-bar-item">
+                    <a rel="nofollow" id="header-top-bar-account" class="articleLink" href="/user/account/" style="margin-bottom:-4px">Account</a>
+                </li>
+                <li class="header-top-bar-item">
+                    <a id="header-top-bar-logout" class="logout articleLink">Log Out</a>
+                </li>
+            </ul>
+        </div>
+    <@ } else { @>
+        <a id="header-top-bar-signup" data-toggle="modal" data-target="#signup" class="signupLink login">SIGN UP</a>
+        <a id="header-top-bar-login" data-toggle="modal" data-target="#login" class="loginLink login">LOG IN</a>
+    <@ } @>
+</SCRIPT>
+ 
+<SCRIPT class="PageHeaderLoginMobileTemplate" type="text/template">
+    <@ if (loggedIn) { @>
+        <div class="userProfile">
+            <a rel="nofollow" class="userProfileLink" href="/user/id/<@= flixsterId @>">
+                <div class="media">
+                    <div class="pull-left">
+                        <img class="media-object" src="<@= thumbnailUrl @>" alt="<@= firstName @>" />
+                    </div>
+                    <div class="pull-right">
+                        <span class="glyphicon glyphicon-cog"/>
+                    </div>
+                    <div class="media-body">
+                        <span class="name"><@= firstName @>&nbsp;<@= lastName @></span>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="logoutRow">
+            <a class="logout">
+                Logout
+            </a>
+        </div>
+    <@ } else { @>
+        <a data-toggle="modal" data-target="#signup" class="signupLink login">SIGN UP</a>
+        <a data-toggle="modal" data-target="#login" class="loginLink login">LOG IN</a>
+    <@ } @>
+</SCRIPT>
+ 
+<SCRIPT class="SocialToolsTemplate" type="text/template">
+    <a class="social-tools-facebook-like" title="Facebook Like"></a>
+    <a class="social-tools-facebook-share" title="Facebook Share"></a>
+    <a class="social-tools-twitter" title="Twitter"></a>
+    <a class="social-tools-pinterest" title="Pinterest"></a>
+    <a class="social-tools-googleplus" title="Google+"></a>
+    <a class="social-tools-stumbleupon" title="StumbleUpon"></a>
+    <@ if (forumLink) { @>
+        <a href="<@= forumLink @>" class="social-tools-comments" title="Forums"></a>
+    <@ } @>
+</SCRIPT>
+ 
+<SCRIPT>
+require(["https://staticv2-4.rottentomatoes.com/static/dist/jspjs/bodyScript.tag.min.js"], function(PageLoad) {
+    PageLoad();
+});
+</SCRIPT>
+ 
+<SCRIPT src="" defer="" async=""></SCRIPT>
+ 
+<SCRIPT>
+    $(".easteregg").click(function () {
+        alert(window.location.href + " \n/home/homepage.jsp \nip-10-25-27-157 (CN) \nGA:empty");
+    });
+</SCRIPT>
+
+<SCRIPT>
+        require(["globals"], function(RT) {
+            var invokeAds = function() {
+                mps.writeFooter && mps.writeFooter();
+            };
+            if ('undefined' !== typeof Promise) {
+                Promise.all(RT.adPromises).then(invokeAds);
+            } else {
+                require(["rsvp"], function(RSVP) {
+                    RSVP.all(RT.adPromises).then(invokeAds);
+                });
+            }
+        });
+    </SCRIPT>
+     
+<SCRIPT type="text/javascript">
+        var _sf_async_config = _sf_async_config || {};
+        /** CONFIGURATION START **/
+        _sf_async_config.sections = "home";
+        _sf_async_config.authors = 'rt-staff'; 
+
+        /** CONFIGURATION END **/
+        (function() {
+            function loadChartbeat() {
+                window._sf_endpt = (new Date()).getTime();
+                var e = document.createElement('script');
+                e.setAttribute('language', 'javascript');
+                e.setAttribute('type', 'text/javascript');
+
+                e.setAttribute('src', '//static.chartbeat.com/js/chartbeat_video.js');
+                document.body.appendChild(e);
+            }
+            var oldonload = window.onload;
+            window.onload = (typeof window.onload != 'function') ?
+                    loadChartbeat : function() {
+                oldonload();
+                loadChartbeat();
+            };
+        })();
+    </SCRIPT>
+     
+<SCRIPT type="text/javascript">_satellite.pageBottom();</SCRIPT>
+         
+<SCRIPT>console.info("body-bottom" + window.performance.now());</SCRIPT>
+ </BODY></HTML>
